@@ -5,6 +5,7 @@ PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 28
   productGUID: 775824bfe1e5bd247bae7fe72edddba9
+  productGUID: 7bdc76bd1b3fb354eb259b357f07497b
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -685,6 +686,11 @@ PlayerSettings:
   qualitySettingsNames: []
   projectName: zivella 2025-11-17_16-15-14
   organizationId: eliasmars
+  cloudProjectId: c90937fa-031d-41ca-9c62-59e9c795db6c
+  framebufferDepthMemorylessMode: 0
+  qualitySettingsNames: []
+  projectName: zibelles
+  organizationId: oakabedul28
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   hmiLoadingImage: {fileID: 0}

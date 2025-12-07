@@ -1,7 +1,11 @@
 using UnityEngine;
 
 
+<<<<<<< HEAD
 public class fogata : MonoBehaviour
+=======
+public class SalatrEsena : MonoBehaviour
+>>>>>>> 8763bd4853a9f6313e584ab09815e99150bc14f2
 {
     private bool enColisionConHogera1 = false;
     private bool enColisionConHogera2 = false;

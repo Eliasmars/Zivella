@@ -1,6 +1,7 @@
 using UnityEngine;
 
-public class fogata : MonoBehaviour
+
+public class SalatrEsena : MonoBehaviour
 {
     private bool enColisionConHogera1 = false;
     private bool enColisionConHogera2 = false;
@@ -135,4 +136,5 @@ public class fogata : MonoBehaviour
             enColisionConHogera3 = false;
         }
     }
+
 }

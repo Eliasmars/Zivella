@@ -1,7 +1,7 @@
 using UnityEngine;
 
 
-public class SalatrEsena : MonoBehaviour
+public class fogsta : MonoBehaviour
 {
     private bool enColisionConHogera1 = false;
     private bool enColisionConHogera2 = false;

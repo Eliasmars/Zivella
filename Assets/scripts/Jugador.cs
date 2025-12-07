@@ -2,7 +2,7 @@ using NUnit.Framework.Constraints;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-public class movimiento : MonoBehaviour
+public class Jugador : MonoBehaviour
 {
     public float velocidadcaminar = 0.4f;
     public float velocidadcorrer = 0.8f;

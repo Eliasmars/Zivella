@@ -681,16 +681,16 @@ PlayerSettings:
   captureStartupLogs: {}
   activeInputHandler: 2
   windowsGamepadBackendHint: 0
-  cloudProjectId: d84423c1-bc17-4261-96c7-e6a76f6c150c
+  cloudProjectId: 
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: zivella 2025-11-17_16-15-14
-  organizationId: eliasmars
-  cloudProjectId: c90937fa-031d-41ca-9c62-59e9c795db6c
+  projectName: 
+  organizationId: 
+  cloudProjectId: 
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: zibelles
-  organizationId: oakabedul28
+  projectName: 
+  organizationId: 
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 0
   hmiLoadingImage: {fileID: 0}

@@ -6,23 +6,27 @@ public class fogata : MonoBehaviour
 {
     private bool enColisionConHogera1 = false;
     private bool enColisionConHogera2 = false;
-    private bool DesbloqueadoConHogera2 = false;
-    
+    public static bool Desbloqueadofogata = false;
 
+    private void Start()
+    {
+        
+    }
     void Update()
     {
         if (enColisionConHogera1 && Input.GetKeyDown(KeyCode.Space))
         {
 
-            if (DesbloqueadoConHogera2 == true)
+            if (Desbloqueadofogata == true)
              {
                  SceneManager.LoadScene("Sala Spawn 1");
             }
 
+
         }
         
        
-        else if (enColisionConHogera2 && Input.GetKeyDown(KeyCode.Space))
+         if (enColisionConHogera2 && Input.GetKeyDown(KeyCode.Space))
         {
             
                 SceneManager.LoadScene("Sala Spawn");
@@ -43,7 +47,8 @@ public class fogata : MonoBehaviour
         }
         if (coll.gameObject.CompareTag("hogera 2"))
         {
-            DesbloqueadoConHogera2 = true;
+            Debug.Log("Entré en hogera 2");
+            Desbloqueadofogata = true;
             enColisionConHogera2 = true;
         }
         

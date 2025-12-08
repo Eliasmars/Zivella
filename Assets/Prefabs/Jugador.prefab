@@ -151,6 +151,7 @@ GameObject:
   - component: {fileID: 4962437690264311884}
   - component: {fileID: 8584047513184468308}
   - component: {fileID: -6155026673656767728}
+  - component: {fileID: 1762738298588077223}
   m_Layer: 0
   m_Name: Jugador
   m_TagString: Untagged
@@ -314,7 +315,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9f50d4823fbd9d844a773e67e10302b5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  velocidadcaminar: 0.04
+  velocidadcaminar: 0.06
   velocidadcorrer: 0.08
   velocidadactual: 0
 --- !u!114 &-6155026673656767728
@@ -327,5 +328,17 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 85cd94584ed66a0409cd9958ee4ec19d, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1762738298588077223
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7896949338158693587}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5c65cefe2ae330a48bde0c14c363e2fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 

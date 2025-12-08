@@ -7,6 +7,19 @@ TagManager:
   - Puerta inicial
   - hogera
   - hogera 2
+  - Puerta spawn
+  - puerta 3
+  - puerta 2
+  - puerta 4
+  - puerta 3A
+  - puerta 5
+  - puerta 4F
+  - Spawn 2
+  - puerta 5A
+  - puerta 6
+  - Sala Jefe
+  - Vuelta Spawn 2
+  - Puerta 6D
   layers:
   - Default
   - TransparentFX

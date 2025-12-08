@@ -315,6 +315,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Puerta
       objectReference: {fileID: 0}
+    - target: {fileID: 687946781601507596, guid: 8f3590f51a919ba4894a91f6dac6391f, type: 3}
+      propertyPath: m_TagString
+      value: Vuelta Spawn 2
+      objectReference: {fileID: 0}
     - target: {fileID: 2632326344223512584, guid: 8f3590f51a919ba4894a91f6dac6391f, type: 3}
       propertyPath: m_FlipX
       value: 0
@@ -693,6 +697,10 @@ PrefabInstance:
     - target: {fileID: 687946781601507596, guid: 8f3590f51a919ba4894a91f6dac6391f, type: 3}
       propertyPath: m_Name
       value: Puerta (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 687946781601507596, guid: 8f3590f51a919ba4894a91f6dac6391f, type: 3}
+      propertyPath: m_TagString
+      value: Sala Jefe
       objectReference: {fileID: 0}
     - target: {fileID: 8706481591041222410, guid: 8f3590f51a919ba4894a91f6dac6391f, type: 3}
       propertyPath: m_LocalScale.x

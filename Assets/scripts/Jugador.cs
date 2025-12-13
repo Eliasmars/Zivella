@@ -6,7 +6,7 @@ public class Jugador : MonoBehaviour
 {
     public float velocidadcaminar = 0.4f;
     public float velocidadcorrer = 0.8f;
-    public float velocidadactual;  
+    public float velocidadactual;
 
     float x, y;
     BoxCollider2D boxcollider;

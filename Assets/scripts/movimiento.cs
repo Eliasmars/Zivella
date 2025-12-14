@@ -4,8 +4,8 @@ using UnityEngine.InputSystem;
 
 public class movimiento : MonoBehaviour
 {
-    public float velocidadcaminar = 0.4f;
-    public float velocidadcorrer = 0.8f;
+    public float velocidadcaminar = 0.10f;
+    public float velocidadcorrer = 0.12f;
     public float velocidadactual;
 
     float x, y;
@@ -31,7 +31,7 @@ public class movimiento : MonoBehaviour
 
         if (Input.GetKey(KeyCode.W))
         {
-            transform.position += new Vector3(0, velocidadcaminar, 0);
+            transform.position += new Vector3(0, 0.5f, 0);
         }
         if (Input.GetKeyDown(KeyCode.S))
         {

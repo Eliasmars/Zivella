@@ -1112,6 +1112,22 @@ PrefabInstance:
       propertyPath: m_Name
       value: Trampa
       objectReference: {fileID: 0}
+    - target: {fileID: 8662313274460700184, guid: e357d3081f2f43e4792b67084e70a3d4, type: 3}
+      propertyPath: m_LocalScale.x
+      value: 0.9909
+      objectReference: {fileID: 0}
+    - target: {fileID: 8662313274460700184, guid: e357d3081f2f43e4792b67084e70a3d4, type: 3}
+      propertyPath: m_LocalScale.y
+      value: 2.5049772
+      objectReference: {fileID: 0}
+    - target: {fileID: 8662313274460700184, guid: e357d3081f2f43e4792b67084e70a3d4, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -6.7041
+      objectReference: {fileID: 0}
+    - target: {fileID: 8662313274460700184, guid: e357d3081f2f43e4792b67084e70a3d4, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -4.4517817
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

@@ -20,6 +20,7 @@ TagManager:
   - Sala Jefe
   - Vuelta Spawn 2
   - Puerta 6D
+  - suelo
   layers:
   - Default
   - TransparentFX

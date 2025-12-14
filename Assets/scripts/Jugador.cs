@@ -1,11 +1,12 @@
 using NUnit.Framework.Constraints;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
 public class Jugador : MonoBehaviour
 {
-    public float velocidadcaminar = 0.4f;
-    public float velocidadcorrer = 0.8f;
+    public float velocidadcaminar = 10f;
+    public float velocidadcorrer = 12f;
     public float velocidadactual;
 
     float x, y;
@@ -31,7 +32,7 @@ public class Jugador : MonoBehaviour
 
         if (Input.GetKey(KeyCode.W))
         {
-            transform.position += new Vector3(0, velocidadcaminar, 0);
+            transform.position += new Vector3(0, 18 * Time.deltaTime, 0);
         }
         if (Input.GetKeyDown(KeyCode.S))
         {
@@ -45,11 +46,11 @@ public class Jugador : MonoBehaviour
         }
         if (Input.GetKey(KeyCode.A))
         {
-            transform.position += new Vector3(-velocidadactual, 0, 0);
+            transform.position += new Vector3(-velocidadactual * Time.deltaTime, 0, 0);
         }
         if (Input.GetKey(KeyCode.D))
         {
-            transform.position += new Vector3(velocidadactual, 0, 0);
+            transform.position += new Vector3(velocidadactual * Time.deltaTime, 0, 0);
         }
 
         

@@ -20,13 +20,7 @@ public class barravida : MonoBehaviour
     {
         
 
-        if (Input.GetKey(KeyCode.Space))
-        {
-            vidaactual -= 2;
-            guardarvida();
-
-            actualizarbarra();
-        }
+        
     }
     public void actualizarbarra()
     {

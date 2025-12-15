@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class Trampa : MonoBehaviour
 {
@@ -7,7 +8,7 @@ public class Trampa : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player")
         {
-            Destroy(collision.gameObject);
+            SceneManager.LoadScene("Sala spawn");
         }
     }
 }

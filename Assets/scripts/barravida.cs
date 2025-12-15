@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class barravida : MonoBehaviour
@@ -27,7 +28,7 @@ public class barravida : MonoBehaviour
         vidaactual -= cantidad;
         if (vidaactual < 0)
         {
-            Destroy(gameObject);
+            SceneManager.LoadScene("Sala spawn");
         }
     }
 

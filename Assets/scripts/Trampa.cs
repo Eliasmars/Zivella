@@ -9,7 +9,7 @@ public class Trampa : MonoBehaviour
     {
         if (collision.gameObject.tag == "Player")
         {
-            barraVida.Daño(5);
+            SceneManager.LoadScene("Sala spawn");
         }
     }
 }

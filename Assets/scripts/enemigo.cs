@@ -60,8 +60,20 @@ public class enemigo : MonoBehaviour
 
     void Atacar()
     {
-        // Mensaje simple de ataque
-        Debug.Log("El enemigo está atacando al jugador!");
+        if (jugador.transform.position.x > transform.position.x)
+        {
+
+            transform.position = new Vector3(transform.position.x + 0.001f, transform.position.y, transform.position.z);
+            Debug.Log("El enemigo está atacando al jugador!");
+        }
+
+        if (jugador.transform.position.x < transform.position.x)
+        {
+
+            transform.position = new Vector3(transform.position.x - 0.001f, transform.position.y, transform.position.z);
+            Debug.Log("El enemigo está atacando al jugador!");
+        }
+        
     }
 
     //formula de daño para el jugador

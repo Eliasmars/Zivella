@@ -21,6 +21,9 @@ TagManager:
   - Vuelta Spawn 2
   - Puerta 6D
   - suelo
+  - Enemigo(Jefe)
+  - Enemigo (minijefe)
+  - Enemigo (regular)
   layers:
   - Default
   - TransparentFX

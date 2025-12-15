@@ -1,8 +1,9 @@
 using UnityEngine;
+using UnityEngine.EventSystems;
 
 public class enemigo : MonoBehaviour
 {
-    
+    public barravida barraVida;       //el nombre del script para encontrarlo
     public Transform puntoA;          // Primer punto de patrulla
     public Transform puntoB;          // Segundo punto de patrulla
     public Transform jugador;         // Referencia al jugador
@@ -59,10 +60,18 @@ public class enemigo : MonoBehaviour
 
     void Atacar()
     {
-
-
-
         // Mensaje simple de ataque
         Debug.Log("El enemigo está atacando al jugador!");
     }
+
+    //formula de daño para el jugador
+    public void OnCollisionEnter2D(Collision2D collision)
+    {
+        if(collision.gameObject.tag == "Player")
+        {
+            barraVida.Daño(10);
+        }
+    }
+
+
 }

@@ -28,7 +28,7 @@ Transform:
   m_GameObject: {fileID: 1365460427101002156}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.08, y: 1.054, z: -10}
+  m_LocalPosition: {x: 0.08, y: 1.76, z: -10}
   m_LocalScale: {x: 1, y: 0.36975414, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -69,7 +69,7 @@ Camera:
   far clip plane: 1000
   field of view: 34
   orthographic: 1
-  orthographic size: 5
+  orthographic size: 7
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -155,7 +155,7 @@ GameObject:
   - component: {fileID: 4035530210116432586}
   m_Layer: 0
   m_Name: Jugador
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -359,6 +359,7 @@ MonoBehaviour:
   barradevida: {fileID: 1305773950552200620}
   vidaactual: 100
   vidamaxima: 100
+  vidaBase: 100
 --- !u!1001 &4361813462008150945
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -446,6 +447,14 @@ PrefabInstance:
     - target: {fileID: 846353573112080822, guid: 8f4946b52b4335c45b868844cf0cad95, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 1994878475734393346, guid: 8f4946b52b4335c45b868844cf0cad95, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: -392
+      objectReference: {fileID: 0}
+    - target: {fileID: 1994878475734393346, guid: 8f4946b52b4335c45b868844cf0cad95, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 216
       objectReference: {fileID: 0}
     - target: {fileID: 7931025364393186201, guid: 8f4946b52b4335c45b868844cf0cad95, type: 3}
       propertyPath: m_Name

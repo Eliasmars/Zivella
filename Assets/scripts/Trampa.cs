@@ -1,0 +1,13 @@
+using UnityEngine;
+
+public class Trampa : MonoBehaviour
+{
+    //se explica solo pero, si hace collision con "Player" lo mata, se podria sacar para que tambien mate enemigos
+    public void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "Player")
+        {
+            Destroy(collision.gameObject);
+        }
+    }
+}

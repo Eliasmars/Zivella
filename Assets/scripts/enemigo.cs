@@ -45,7 +45,7 @@ public class enemigo : MonoBehaviour
         );
 
         // Si llega al punto, cambiar al otro
-        if (Vector3.Distance(transform.position, objetivoActual.position) < 0.1f)
+        if (Vector3.Distance(transform.position, objetivoActual.position) < 0.5f)
         {
             if (objetivoActual == puntoA)
             {
@@ -79,10 +79,7 @@ public class enemigo : MonoBehaviour
     //formula de daño para el jugador
     public void OnCollisionEnter2D(Collision2D collision)
     {
-        if(collision.gameObject.tag == "Player")
-        {
-            barraVida.Daño(10);
-        }
+       
     }
 
 

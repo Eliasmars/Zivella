@@ -24,6 +24,7 @@ TagManager:
   - Enemigo(Jefe)
   - Enemigo (minijefe)
   - Enemigo (regular)
+  - Trampa
   layers:
   - Default
   - TransparentFX

@@ -5,6 +5,7 @@ using UnityEngine.InputSystem;
 
 public class Jugador : MonoBehaviour
 {
+    public barravida barravida;
     public float velocidadcaminar = 10f;
     public float velocidadcorrer = 12f;
     public float velocidadactual;
@@ -54,5 +55,13 @@ public class Jugador : MonoBehaviour
         }
 
         
+    }
+    
+    public void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.tag == "Trampa")
+        {
+            barravida.vidaactual -= 10;
+        }
     }
 }

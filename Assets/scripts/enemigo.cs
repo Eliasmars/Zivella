@@ -45,7 +45,7 @@ public class enemigo : MonoBehaviour
         );
 
         // Si llega al punto, cambiar al otro
-        if (Vector3.Distance(transform.position, objetivoActual.position) < 0.1f)
+        if (Vector3.Distance(transform.position, objetivoActual.position) < 0.5f)
         {
             if (objetivoActual == puntoA)
             {

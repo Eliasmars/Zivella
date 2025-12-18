@@ -19,6 +19,7 @@ public class Puertas : MonoBehaviour
         if (coll.gameObject.CompareTag("Puerta inicial"))
         {
             SceneManager.LoadScene("Sala 2");
+
         } else if (coll.gameObject.CompareTag("Puerta spawn"))
         {
             SceneManager.LoadScene("Sala spawn");
@@ -29,6 +30,7 @@ public class Puertas : MonoBehaviour
         }
         else if (coll.gameObject.CompareTag("puerta 2"))
         {
+            puertainfo.puertaEntrante = "puerta 2";
             SceneManager.LoadScene("Sala 2");
         }
         else if (coll.gameObject.CompareTag("puerta 4"))
@@ -37,6 +39,7 @@ public class Puertas : MonoBehaviour
         }
         else if (coll.gameObject.CompareTag("puerta 3A"))
         {
+            puertainfo.puertaEntrante = "puerta 3A";
             SceneManager.LoadScene("Sala 3 vertical 1");
 
         }
@@ -46,6 +49,7 @@ public class Puertas : MonoBehaviour
         }
         else if (coll.gameObject.CompareTag("puerta 4F"))
         {
+            puertainfo.puertaEntrante = "puerta 4F";
             SceneManager.LoadScene("Sala 4");
         }
         else if (coll.gameObject.CompareTag("Spawn 2"))
@@ -59,6 +63,7 @@ public class Puertas : MonoBehaviour
         }
         else if (coll.gameObject.CompareTag("puerta 5A"))
         {
+            puertainfo.puertaEntrante = "puerta 5A";
             SceneManager.LoadScene("Sala 5 vertical");
         }
         else if (coll.gameObject.CompareTag("Sala Jefe"))
@@ -71,6 +76,7 @@ public class Puertas : MonoBehaviour
         }
         else if (coll.gameObject.CompareTag("Puerta 6D"))
         {
+            puertainfo.puertaEntrante = "Puerta 6D";
             SceneManager.LoadScene("Sala 6");
         }
 

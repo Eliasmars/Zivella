@@ -30,7 +30,7 @@ public class fogata : MonoBehaviour
          if (enColisionConHogera2 && Input.GetKeyDown(KeyCode.Space))
         {
 
-              barravida.vidaactual = barravida.vidamaxima;
+            SceneManager.LoadScene("Sala Spawn");
 
         }
         if (enColisionConHogera1 && Input.GetKeyDown(KeyCode.F))

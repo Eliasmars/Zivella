@@ -494,6 +494,55 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 287324535990635038, guid: c249b583295598849918c49a11f1b935, type: 3}
   m_PrefabInstance: {fileID: 537244507}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &691539803
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 691539805}
+  - component: {fileID: 691539804}
+  m_Layer: 0
+  m_Name: puertaspawn
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &691539804
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 691539803}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75313cb3b9fec7a439c45d11488b2c42, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  S2: {fileID: 0}
+  S3: {fileID: 0}
+  S4: {fileID: 0}
+  S5: {fileID: 0}
+  S6: {fileID: 1871889702}
+--- !u!4 &691539805
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 691539803}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 42.03629, y: -1.1083441, z: 5.9676886}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &698268713
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1439,6 +1488,37 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 287324535990635038, guid: c249b583295598849918c49a11f1b935, type: 3}
   m_PrefabInstance: {fileID: 1856116254}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1871889701
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1871889702}
+  m_Layer: 0
+  m_Name: puertajefe
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1871889702
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1871889701}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 46.03629, y: -5.108344, z: 5.9676886}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1875612494
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1861,3 +1941,5 @@ SceneRoots:
   - {fileID: 262528868}
   - {fileID: 186427433}
   - {fileID: 2067445770}
+  - {fileID: 1871889702}
+  - {fileID: 691539805}

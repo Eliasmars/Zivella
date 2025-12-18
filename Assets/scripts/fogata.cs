@@ -4,6 +4,7 @@ using UnityEngine.SceneManagement;
 
 public class fogata : MonoBehaviour
 {
+    public barravida barravida;
     private bool enColisionConHogera1 = false;
     private bool enColisionConHogera2 = false;
     public static bool Desbloqueadofogata = false;
@@ -28,11 +29,29 @@ public class fogata : MonoBehaviour
        
          if (enColisionConHogera2 && Input.GetKeyDown(KeyCode.Space))
         {
-            
-                SceneManager.LoadScene("Sala Spawn");
-            
+
+              barravida.vidaactual = barravida.vidamaxima;
+
         }
-       
+        if (enColisionConHogera1 && Input.GetKeyDown(KeyCode.F))
+        {
+
+           
+            
+                barravida.vidaactual = barravida.vidamaxima;
+            
+
+
+        }
+
+
+        if (enColisionConHogera2 && Input.GetKeyDown(KeyCode.F))
+        {
+
+            barravida.vidaactual = barravida.vidamaxima;
+
+        }
+
 
 
     }

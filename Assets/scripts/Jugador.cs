@@ -54,6 +54,7 @@ public class Jugador : MonoBehaviour
             transform.position += new Vector3(velocidadactual * Time.deltaTime, 0, 0);
         }
 
+
         
     }
     

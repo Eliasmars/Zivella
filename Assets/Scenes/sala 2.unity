@@ -522,6 +522,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -6155026673656767728, guid: 2cfb195e63d5d944d98d58bbdc996817, type: 3}
+      propertyPath: barravida
+      value: 
+      objectReference: {fileID: 1599952067}
     - target: {fileID: 1836557451414630474, guid: 2cfb195e63d5d944d98d58bbdc996817, type: 3}
       propertyPath: m_LocalPosition.x
       value: -12.46654

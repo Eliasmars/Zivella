@@ -55,14 +55,24 @@ public class Jugador : MonoBehaviour
         }
 
 
-        
+
     }
-    
+
     public void OnCollisionEnter2D(Collision2D collision)
     {
         if (collision.gameObject.tag == "Trampa")
         {
+            barravida.vidaactual -= 5;
+        }
+
+        if (collision.gameObject.tag == "Enemigo (regular)")
+        {
             barravida.vidaactual -= 10;
+        }
+
+        if (collision.gameObject.tag == "Enemigo(Jefe)")
+        {
+            barravida.vidaactual -= 15;
         }
     }
 }

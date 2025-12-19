@@ -7,6 +7,7 @@ public class enemigo : MonoBehaviour
     public Transform puntoA;          // Primer punto de patrulla
     public Transform puntoB;          // Segundo punto de patrulla
     public Transform jugador;         // Referencia al jugador
+    public float vida = 100;
 
     public float velocidad = 2f;      // Velocidad del enemigo
     public float distanciaAtaque = 1.5f; // Distancia para atacar
@@ -34,6 +35,11 @@ public class enemigo : MonoBehaviour
 
         // Si no está cerca, patrulla
         Patrullar();
+
+        if (vida <= 0)
+        {
+            Destroy(gameObject);
+        }
     }
     void Patrullar()
     {
@@ -73,14 +79,16 @@ public class enemigo : MonoBehaviour
             transform.position = new Vector3(transform.position.x - 0.001f, transform.position.y, transform.position.z);
             Debug.Log("El enemigo está atacando al jugador!");
         }
-        
+
     }
 
     //formula de daño para el jugador
     public void OnCollisionEnter2D(Collision2D collision)
     {
-       
+        if (collision.gameObject.tag == "Player")
+        {
+            vida -= 20;
+        }
     }
-
 
 }

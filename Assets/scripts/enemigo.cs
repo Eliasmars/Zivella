@@ -3,20 +3,22 @@ using UnityEngine.EventSystems;
 
 public class enemigo : MonoBehaviour
 {
-    public barravida barraVida;       //el nombre del script para encontrarlo
-    public Transform puntoA;          // Primer punto de patrulla
-    public Transform puntoB;          // Segundo punto de patrulla
-    public Transform jugador;         // Referencia al jugador
+    public barravida barraVida;       
+    public Transform puntoA;        
+    public Transform puntoB;         
+    public Transform jugador;         
     public float vida = 100;
 
-    public float velocidad = 2f;      // Velocidad del enemigo
-    public float distanciaAtaque = 1.5f; // Distancia para atacar
+    public float velocidad = 2f;      
+    public float distanciaAtaque = 1.5f;
+    public float distanciaPersegir = 15f;
 
-    private Transform objetivoActual; // Hacia dónde va el enemigo
+    private Transform objetivoActual;
+   
 
     void Start()
     {
-        // Comenzamos yendo al punto A
+        
         objetivoActual = puntoA;
     }
 
@@ -26,15 +28,20 @@ public class enemigo : MonoBehaviour
         // Medir la distancia al jugador
         float distancia = Vector3.Distance(transform.position, jugador.position);
 
-        // Si está suficientemente cerca, ataca
+        
         if (distancia <= distanciaAtaque)
         {
             Atacar();
-            return;
         }
-
-        // Si no está cerca, patrulla
-        Patrullar();
+        else if (distancia <= distanciaPersegir)
+        {
+           
+            SeguirJugador();
+        }
+        else
+        {
+            Patrullar();
+        }
 
         if (vida <= 0)
         {
@@ -63,22 +70,15 @@ public class enemigo : MonoBehaviour
             }
         }
     }
-
+    void SeguirJugador()
+    {
+        float direccion = Mathf.Sign(jugador.position.x - transform.position.x);
+        transform.position += Vector3.right * direccion * velocidad * Time.deltaTime;
+    }
     void Atacar()
     {
-        if (jugador.transform.position.x > transform.position.x)
-        {
-
-            transform.position = new Vector3(transform.position.x + 0.001f, transform.position.y, transform.position.z);
+       
             Debug.Log("El enemigo está atacando al jugador!");
-        }
-
-        if (jugador.transform.position.x < transform.position.x)
-        {
-
-            transform.position = new Vector3(transform.position.x - 0.001f, transform.position.y, transform.position.z);
-            Debug.Log("El enemigo está atacando al jugador!");
-        }
 
     }
 

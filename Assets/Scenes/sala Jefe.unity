@@ -772,35 +772,15 @@ GameObject:
   - component: {fileID: 1637463669}
   - component: {fileID: 1637463672}
   - component: {fileID: 1637463667}
-  - component: {fileID: 1637463666}
   - component: {fileID: 1637463671}
+  - component: {fileID: 1637463673}
   m_Layer: 0
   m_Name: Jefe
-  m_TagString: Untagged
+  m_TagString: Enemigo(Jefe)
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1637463666
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1637463665}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9657a9f9b0393d642981e9696a3f69f7, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  barraVida: {fileID: 1143612097}
-  puntoA: {fileID: 1710322215}
-  puntoB: {fileID: 1777361947}
-  jugador: {fileID: 1143612096}
-  vida: 100
-  velocidad: 2
-  distanciaAtaque: 1.5
-  distanciaPersegir: 15
 --- !u!50 &1637463667
 Rigidbody2D:
   serializedVersion: 5
@@ -827,7 +807,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!212 &1637463669
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -974,6 +954,25 @@ PolygonCollider2D:
       - {x: 3.301871, y: -4.7253532}
       - {x: 2.2367022, y: 1.4432074}
   m_UseDelaunayMesh: 0
+--- !u!114 &1637463673
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1637463665}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b7142e11660cb52498de8ff96f619da2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  barraVida: {fileID: 1143612097}
+  puntoA: {fileID: 1710322215}
+  puntoB: {fileID: 1777361947}
+  jugador: {fileID: 1143612096}
+  vida: 200
+  velocidad: 3
+  distanciaAtaque: 4
 --- !u!1 &1710322214
 GameObject:
   m_ObjectHideFlags: 0

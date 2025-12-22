@@ -1,4 +1,6 @@
 using UnityEngine;
+using System.Collections;
+using System.Collections.Generic;
 using UnityEngine.EventSystems;
 
 public class enemigo : MonoBehaviour
@@ -11,15 +13,17 @@ public class enemigo : MonoBehaviour
 
     public float velocidad = 2f;      
     public float distanciaAtaque = 1.5f;
-    public float distanciaPersegir = 15f;
+    public float distanciaPersegir = 10f;
 
     private Transform objetivoActual;
-   
+    private Animator anim;
+
 
     void Start()
     {
         
         objetivoActual = puntoA;
+        anim = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -50,7 +54,7 @@ public class enemigo : MonoBehaviour
     }
     void Patrullar()
     {
-        // Moverse hacia el punto actual
+        anim.SetInteger("atacar", 0);
         transform.position = Vector3.MoveTowards(
             transform.position,
             objetivoActual.position,
@@ -72,13 +76,15 @@ public class enemigo : MonoBehaviour
     }
     void SeguirJugador()
     {
+        anim.SetInteger("atacar", 0);
         float direccion = Mathf.Sign(jugador.position.x - transform.position.x);
         transform.position += Vector3.right * direccion * velocidad * Time.deltaTime;
     }
     void Atacar()
     {
-       
-            Debug.Log("El enemigo está atacando al jugador!");
+        anim.SetInteger("atacar", 1);
+        
+        Debug.Log("El enemigo está atacando al jugador!");
 
     }
 

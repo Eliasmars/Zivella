@@ -2,30 +2,32 @@ using UnityEngine;
 
 public class Jefe1 : MonoBehaviour
 {
-    public barravida barraVida;       //el nombre del script para encontrarlo
-    public Transform puntoA;          // Primer punto de patrulla
-    public Transform puntoB;          // Segundo punto de patrulla
-    public Transform jugador;         // Referencia al jugador
+    public barravida barraVida;       
+    public Transform puntoA;          
+    public Transform puntoB;         
+    public Transform jugador;        
     public float vida = 200;
 
-    public float velocidad = 3f;      // Velocidad del enemigo
-    public float distanciaAtaque = 2f; // Distancia para atacar
+    public float velocidad = 3f;      
+    public float distanciaAtaque = 4f; 
 
-    private Transform objetivoActual; // Hacia dónde va el enemigo
+    private Transform objetivoActual;
+    private Animator anim;
 
     void Start()
     {
-        // Comenzamos yendo al punto A
+        
         objetivoActual = puntoA;
+        anim = GetComponent<Animator>();
     }
 
-    // Update is called once per frame
+    
     void Update()
     {
-        // Medir la distancia al jugador
+        
         float distancia = Vector3.Distance(transform.position, jugador.position);
 
-        // Si está suficientemente cerca, ataca
+       
         if (distancia <= distanciaAtaque)
         {
             Atacar();
@@ -42,14 +44,14 @@ public class Jefe1 : MonoBehaviour
     }
     void Patrullar()
     {
-        // Moverse hacia el punto actual
+        anim.SetInteger("atacar", 0);
         transform.position = Vector3.MoveTowards(
             transform.position,
             objetivoActual.position,
             velocidad * Time.deltaTime
         );
 
-        // Si llega al punto, cambiar al otro
+        
         if (Vector3.Distance(transform.position, objetivoActual.position) < 0.5f)
         {
             if (objetivoActual == puntoA)
@@ -65,19 +67,10 @@ public class Jefe1 : MonoBehaviour
 
     void Atacar()
     {
-        if (jugador.transform.position.x > transform.position.x)
-        {
 
-            transform.position = new Vector3(transform.position.x + 0.001f, transform.position.y, transform.position.z);
-            Debug.Log("El enemigo está atacando al jugador!");
-        }
-
-        if (jugador.transform.position.x < transform.position.x)
-        {
-
-            transform.position = new Vector3(transform.position.x - 0.001f, transform.position.y, transform.position.z);
-            Debug.Log("El enemigo está atacando al jugador!");
-        }
+        anim.SetInteger("AtaqueJefe", 1);
+        Debug.Log("El enemigo está atacando al jugador!");
+        
 
     }
 

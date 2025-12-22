@@ -1281,6 +1281,10 @@ PrefabInstance:
       propertyPath: barraVida
       value: 
       objectReference: {fileID: 1958120533}
+    - target: {fileID: 4297123220007973309, guid: c249b583295598849918c49a11f1b935, type: 3}
+      propertyPath: distanciaPersegir
+      value: 15
+      objectReference: {fileID: 0}
     - target: {fileID: 6413520124066555703, guid: c249b583295598849918c49a11f1b935, type: 3}
       propertyPath: m_Name
       value: Enemigo

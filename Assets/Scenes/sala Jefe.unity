@@ -127,6 +127,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -6155026673656767728, guid: 2cfb195e63d5d944d98d58bbdc996817, type: 3}
+      propertyPath: barravida
+      value: 
+      objectReference: {fileID: 1143612097}
     - target: {fileID: 1836557451414630474, guid: 2cfb195e63d5d944d98d58bbdc996817, type: 3}
       propertyPath: m_LocalScale.x
       value: 1
@@ -175,6 +179,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Jugador
       objectReference: {fileID: 0}
+    - target: {fileID: 8584047513184468308, guid: 2cfb195e63d5d944d98d58bbdc996817, type: 3}
+      propertyPath: barravida
+      value: 
+      objectReference: {fileID: 1143612097}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -335,11 +343,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2124502051377343787, guid: a47873fe3e2197f4db8dde7c7bb3e9eb, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 20.8845
+      value: 20.81
       objectReference: {fileID: 0}
     - target: {fileID: 2124502051377343787, guid: a47873fe3e2197f4db8dde7c7bb3e9eb, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 2.61
+      value: 4.26
       objectReference: {fileID: 0}
     - target: {fileID: 2124502051377343787, guid: a47873fe3e2197f4db8dde7c7bb3e9eb, type: 3}
       propertyPath: m_LocalPosition.z
@@ -792,6 +800,7 @@ MonoBehaviour:
   vida: 100
   velocidad: 2
   distanciaAtaque: 1.5
+  distanciaPersegir: 15
 --- !u!50 &1637463667
 Rigidbody2D:
   serializedVersion: 5
@@ -949,7 +958,7 @@ PolygonCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 11.26275, y: 8.56}
+    oldSize: {x: 11.7, y: 10.808788}
     newSize: {x: 0.8828125, y: 1}
     adaptiveTilingThreshold: 0.5
     drawMode: 0

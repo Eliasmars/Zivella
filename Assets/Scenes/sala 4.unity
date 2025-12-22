@@ -290,6 +290,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -6155026673656767728, guid: 2cfb195e63d5d944d98d58bbdc996817, type: 3}
+      propertyPath: barravida
+      value: 
+      objectReference: {fileID: 1958120533}
     - target: {fileID: 1836557451414630474, guid: 2cfb195e63d5d944d98d58bbdc996817, type: 3}
       propertyPath: m_LocalPosition.x
       value: 45.72
@@ -334,6 +338,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Jugador
       objectReference: {fileID: 0}
+    - target: {fileID: 8584047513184468308, guid: 2cfb195e63d5d944d98d58bbdc996817, type: 3}
+      propertyPath: barravida
+      value: 
+      objectReference: {fileID: 1958120533}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -369,7 +377,7 @@ Transform:
   m_GameObject: {fileID: 365873813}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 5.0193033, y: -2.0998423, z: 5.9830604}
+  m_LocalPosition: {x: 5.0193033, y: -0.9, z: 5.9830604}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -1288,6 +1296,22 @@ PrefabInstance:
     - target: {fileID: 6413520124066555703, guid: c249b583295598849918c49a11f1b935, type: 3}
       propertyPath: m_Name
       value: Enemigo
+      objectReference: {fileID: 0}
+    - target: {fileID: 8093105570318508429, guid: c249b583295598849918c49a11f1b935, type: 3}
+      propertyPath: m_Size.x
+      value: 8.323399
+      objectReference: {fileID: 0}
+    - target: {fileID: 8093105570318508429, guid: c249b583295598849918c49a11f1b935, type: 3}
+      propertyPath: m_Size.y
+      value: 8.580766
+      objectReference: {fileID: 0}
+    - target: {fileID: 8093105570318508429, guid: c249b583295598849918c49a11f1b935, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.4009056
+      objectReference: {fileID: 0}
+    - target: {fileID: 8093105570318508429, guid: c249b583295598849918c49a11f1b935, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.13844156
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

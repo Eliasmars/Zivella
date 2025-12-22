@@ -227,6 +227,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -6155026673656767728, guid: 2cfb195e63d5d944d98d58bbdc996817, type: 3}
+      propertyPath: barravida
+      value: 
+      objectReference: {fileID: 262528870}
     - target: {fileID: 1836557451414630474, guid: 2cfb195e63d5d944d98d58bbdc996817, type: 3}
       propertyPath: m_LocalPosition.x
       value: -12.9
@@ -271,6 +275,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Jugador
       objectReference: {fileID: 0}
+    - target: {fileID: 8584047513184468308, guid: 2cfb195e63d5d944d98d58bbdc996817, type: 3}
+      propertyPath: barravida
+      value: 
+      objectReference: {fileID: 262528870}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -372,6 +380,14 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4297123220007973309, guid: c249b583295598849918c49a11f1b935, type: 3}
+      propertyPath: puntoA
+      value: 
+      objectReference: {fileID: 1020336045}
+    - target: {fileID: 4297123220007973309, guid: c249b583295598849918c49a11f1b935, type: 3}
+      propertyPath: puntoB
+      value: 
+      objectReference: {fileID: 387697064}
+    - target: {fileID: 4297123220007973309, guid: c249b583295598849918c49a11f1b935, type: 3}
       propertyPath: jugador
       value: 
       objectReference: {fileID: 262528869}
@@ -472,6 +488,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4297123220007973309, guid: c249b583295598849918c49a11f1b935, type: 3}
+      propertyPath: puntoA
+      value: 
+      objectReference: {fileID: 831754108}
+    - target: {fileID: 4297123220007973309, guid: c249b583295598849918c49a11f1b935, type: 3}
+      propertyPath: puntoB
+      value: 
+      objectReference: {fileID: 97227802}
     - target: {fileID: 4297123220007973309, guid: c249b583295598849918c49a11f1b935, type: 3}
       propertyPath: jugador
       value: 
@@ -654,6 +678,14 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4297123220007973309, guid: c249b583295598849918c49a11f1b935, type: 3}
+      propertyPath: puntoA
+      value: 
+      objectReference: {fileID: 1919965727}
+    - target: {fileID: 4297123220007973309, guid: c249b583295598849918c49a11f1b935, type: 3}
+      propertyPath: puntoB
+      value: 
+      objectReference: {fileID: 1607175208}
+    - target: {fileID: 4297123220007973309, guid: c249b583295598849918c49a11f1b935, type: 3}
       propertyPath: jugador
       value: 
       objectReference: {fileID: 262528869}
@@ -819,6 +851,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4297123220007973309, guid: c249b583295598849918c49a11f1b935, type: 3}
+      propertyPath: puntoA
+      value: 
+      objectReference: {fileID: 3277064}
+    - target: {fileID: 4297123220007973309, guid: c249b583295598849918c49a11f1b935, type: 3}
+      propertyPath: puntoB
+      value: 
+      objectReference: {fileID: 1885476288}
     - target: {fileID: 4297123220007973309, guid: c249b583295598849918c49a11f1b935, type: 3}
       propertyPath: jugador
       value: 
@@ -1102,6 +1142,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4297123220007973309, guid: c249b583295598849918c49a11f1b935, type: 3}
+      propertyPath: puntoA
+      value: 
+      objectReference: {fileID: 1280584390}
+    - target: {fileID: 4297123220007973309, guid: c249b583295598849918c49a11f1b935, type: 3}
+      propertyPath: puntoB
+      value: 
+      objectReference: {fileID: 1560158821}
     - target: {fileID: 4297123220007973309, guid: c249b583295598849918c49a11f1b935, type: 3}
       propertyPath: jugador
       value: 
@@ -1466,6 +1514,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4297123220007973309, guid: c249b583295598849918c49a11f1b935, type: 3}
+      propertyPath: puntoA
+      value: 
+      objectReference: {fileID: 1942689110}
+    - target: {fileID: 4297123220007973309, guid: c249b583295598849918c49a11f1b935, type: 3}
+      propertyPath: puntoB
+      value: 
+      objectReference: {fileID: 1955362385}
     - target: {fileID: 4297123220007973309, guid: c249b583295598849918c49a11f1b935, type: 3}
       propertyPath: jugador
       value: 
@@ -1911,6 +1967,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4297123220007973309, guid: c249b583295598849918c49a11f1b935, type: 3}
+      propertyPath: puntoA
+      value: 
+      objectReference: {fileID: 1908176243}
+    - target: {fileID: 4297123220007973309, guid: c249b583295598849918c49a11f1b935, type: 3}
+      propertyPath: puntoB
+      value: 
+      objectReference: {fileID: 483616304}
     - target: {fileID: 4297123220007973309, guid: c249b583295598849918c49a11f1b935, type: 3}
       propertyPath: jugador
       value: 

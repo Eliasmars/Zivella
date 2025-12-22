@@ -240,16 +240,40 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4297123220007973309, guid: c249b583295598849918c49a11f1b935, type: 3}
+      propertyPath: puntoA
+      value: 
+      objectReference: {fileID: 1835528971}
+    - target: {fileID: 4297123220007973309, guid: c249b583295598849918c49a11f1b935, type: 3}
+      propertyPath: puntoB
+      value: 
+      objectReference: {fileID: 853399641}
+    - target: {fileID: 4297123220007973309, guid: c249b583295598849918c49a11f1b935, type: 3}
       propertyPath: jugador
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 2070357297}
     - target: {fileID: 4297123220007973309, guid: c249b583295598849918c49a11f1b935, type: 3}
       propertyPath: barraVida
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 2070357290}
     - target: {fileID: 6413520124066555703, guid: c249b583295598849918c49a11f1b935, type: 3}
       propertyPath: m_Name
       value: Enemigo  (2)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8093105570318508429, guid: c249b583295598849918c49a11f1b935, type: 3}
+      propertyPath: m_Size.x
+      value: 7.635301
+      objectReference: {fileID: 0}
+    - target: {fileID: 8093105570318508429, guid: c249b583295598849918c49a11f1b935, type: 3}
+      propertyPath: m_Size.y
+      value: 8.747082
+      objectReference: {fileID: 0}
+    - target: {fileID: 8093105570318508429, guid: c249b583295598849918c49a11f1b935, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.09744549
+      objectReference: {fileID: 0}
+    - target: {fileID: 8093105570318508429, guid: c249b583295598849918c49a11f1b935, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.040807486
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -523,6 +547,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -6155026673656767728, guid: 2cfb195e63d5d944d98d58bbdc996817, type: 3}
+      propertyPath: barravida
+      value: 
+      objectReference: {fileID: 2070357290}
     - target: {fileID: 374764565738667856, guid: 2cfb195e63d5d944d98d58bbdc996817, type: 3}
       propertyPath: orthographic size
       value: 7
@@ -583,6 +611,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 8584047513184468308, guid: 2cfb195e63d5d944d98d58bbdc996817, type: 3}
+      propertyPath: barravida
+      value: 
+      objectReference: {fileID: 2070357290}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -980,9 +1012,41 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4297123220007973309, guid: c249b583295598849918c49a11f1b935, type: 3}
+      propertyPath: puntoA
+      value: 
+      objectReference: {fileID: 391251659}
+    - target: {fileID: 4297123220007973309, guid: c249b583295598849918c49a11f1b935, type: 3}
+      propertyPath: puntoB
+      value: 
+      objectReference: {fileID: 1165968077}
+    - target: {fileID: 4297123220007973309, guid: c249b583295598849918c49a11f1b935, type: 3}
+      propertyPath: jugador
+      value: 
+      objectReference: {fileID: 2070357297}
+    - target: {fileID: 4297123220007973309, guid: c249b583295598849918c49a11f1b935, type: 3}
+      propertyPath: barraVida
+      value: 
+      objectReference: {fileID: 2070357290}
     - target: {fileID: 6413520124066555703, guid: c249b583295598849918c49a11f1b935, type: 3}
       propertyPath: m_Name
       value: 'Enemigo '
+      objectReference: {fileID: 0}
+    - target: {fileID: 8093105570318508429, guid: c249b583295598849918c49a11f1b935, type: 3}
+      propertyPath: m_Size.x
+      value: 7.148071
+      objectReference: {fileID: 0}
+    - target: {fileID: 8093105570318508429, guid: c249b583295598849918c49a11f1b935, type: 3}
+      propertyPath: m_Size.y
+      value: 8.698359
+      objectReference: {fileID: 0}
+    - target: {fileID: 8093105570318508429, guid: c249b583295598849918c49a11f1b935, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.00000047683716
+      objectReference: {fileID: 0}
+    - target: {fileID: 8093105570318508429, guid: c249b583295598849918c49a11f1b935, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.03228402
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1947,16 +2011,40 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4297123220007973309, guid: c249b583295598849918c49a11f1b935, type: 3}
+      propertyPath: puntoA
+      value: 
+      objectReference: {fileID: 2870943}
+    - target: {fileID: 4297123220007973309, guid: c249b583295598849918c49a11f1b935, type: 3}
+      propertyPath: puntoB
+      value: 
+      objectReference: {fileID: 1363110396}
+    - target: {fileID: 4297123220007973309, guid: c249b583295598849918c49a11f1b935, type: 3}
       propertyPath: jugador
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 2070357297}
     - target: {fileID: 4297123220007973309, guid: c249b583295598849918c49a11f1b935, type: 3}
       propertyPath: barraVida
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 2070357290}
     - target: {fileID: 6413520124066555703, guid: c249b583295598849918c49a11f1b935, type: 3}
       propertyPath: m_Name
       value: Enemigo  (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8093105570318508429, guid: c249b583295598849918c49a11f1b935, type: 3}
+      propertyPath: m_Size.x
+      value: 7.537858
+      objectReference: {fileID: 0}
+    - target: {fileID: 8093105570318508429, guid: c249b583295598849918c49a11f1b935, type: 3}
+      propertyPath: m_Size.y
+      value: 8.990707
+      objectReference: {fileID: 0}
+    - target: {fileID: 8093105570318508429, guid: c249b583295598849918c49a11f1b935, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.19489622
+      objectReference: {fileID: 0}
+    - target: {fileID: 8093105570318508429, guid: c249b583295598849918c49a11f1b935, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.016443014
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2454,16 +2542,40 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 4297123220007973309, guid: c249b583295598849918c49a11f1b935, type: 3}
+      propertyPath: puntoA
+      value: 
+      objectReference: {fileID: 423384748}
+    - target: {fileID: 4297123220007973309, guid: c249b583295598849918c49a11f1b935, type: 3}
+      propertyPath: puntoB
+      value: 
+      objectReference: {fileID: 1195192301}
+    - target: {fileID: 4297123220007973309, guid: c249b583295598849918c49a11f1b935, type: 3}
       propertyPath: jugador
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 2070357297}
     - target: {fileID: 4297123220007973309, guid: c249b583295598849918c49a11f1b935, type: 3}
       propertyPath: barraVida
       value: 
-      objectReference: {fileID: 0}
+      objectReference: {fileID: 2070357290}
     - target: {fileID: 6413520124066555703, guid: c249b583295598849918c49a11f1b935, type: 3}
       propertyPath: m_Name
       value: Enemigo  (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 8093105570318508429, guid: c249b583295598849918c49a11f1b935, type: 3}
+      propertyPath: m_Size.x
+      value: 7.7327538
+      objectReference: {fileID: 0}
+    - target: {fileID: 8093105570318508429, guid: c249b583295598849918c49a11f1b935, type: 3}
+      propertyPath: m_Size.y
+      value: 8.844528
+      objectReference: {fileID: 0}
+    - target: {fileID: 8093105570318508429, guid: c249b583295598849918c49a11f1b935, type: 3}
+      propertyPath: m_Offset.x
+      value: -0.00000047683716
+      objectReference: {fileID: 0}
+    - target: {fileID: 8093105570318508429, guid: c249b583295598849918c49a11f1b935, type: 3}
+      propertyPath: m_Offset.y
+      value: 0.08952427
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -2479,6 +2591,22 @@ Transform:
 Transform:
   m_CorrespondingSourceObject: {fileID: 8706481591041222410, guid: 8f3590f51a919ba4894a91f6dac6391f, type: 3}
   m_PrefabInstance: {fileID: 1452050777}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2070357290 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4035530210116432586, guid: 2cfb195e63d5d944d98d58bbdc996817, type: 3}
+  m_PrefabInstance: {fileID: 589307222}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f58610fab8e9722479c1434e90df820b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!4 &2070357297 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1836557451414630474, guid: 2cfb195e63d5d944d98d58bbdc996817, type: 3}
+  m_PrefabInstance: {fileID: 589307222}
   m_PrefabAsset: {fileID: 0}
 --- !u!1660057539 &9223372036854775807
 SceneRoots:

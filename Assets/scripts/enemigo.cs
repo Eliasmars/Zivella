@@ -69,17 +69,17 @@ public class enemigo : MonoBehaviour
         );
 
         // Si llega al punto, cambiar al otro
-        if (Vector3.Distance(transform.position, objetivoActual.position) < 0.7f)
+        if (Vector3.Distance(transform.position, objetivoActual.position) < 0.1f)
         {
-            if (objetivoActual == puntoA)
+            if (objetivoActual.position == puntoA.position)
             {
                 objetivoActual = puntoB;
-                
+                spriteRenderer.flipX = true;
             }
             else
             {
                 objetivoActual = puntoA;
-                
+                spriteRenderer.flipX = false;
             }
         }
     }

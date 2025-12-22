@@ -187,6 +187,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Jugador
       objectReference: {fileID: 0}
+    - target: {fileID: 7896949338158693587, guid: 2cfb195e63d5d944d98d58bbdc996817, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 8584047513184468308, guid: 2cfb195e63d5d944d98d58bbdc996817, type: 3}
       propertyPath: barravida
       value: 
@@ -423,7 +427,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2124502051377343787, guid: a47873fe3e2197f4db8dde7c7bb3e9eb, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 20.81
+      value: 20.7
       objectReference: {fileID: 0}
     - target: {fileID: 2124502051377343787, guid: a47873fe3e2197f4db8dde7c7bb3e9eb, type: 3}
       propertyPath: m_LocalPosition.y
@@ -464,6 +468,10 @@ PrefabInstance:
     - target: {fileID: 3262645181953285805, guid: a47873fe3e2197f4db8dde7c7bb3e9eb, type: 3}
       propertyPath: m_Name
       value: Plataforma (3)
+      objectReference: {fileID: 0}
+    - target: {fileID: 3262645181953285805, guid: a47873fe3e2197f4db8dde7c7bb3e9eb, type: 3}
+      propertyPath: m_Layer
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: 5046776003102538710, guid: a47873fe3e2197f4db8dde7c7bb3e9eb, type: 3}
       propertyPath: m_IsTrigger
@@ -858,7 +866,7 @@ GameObject:
   - component: {fileID: 1637463667}
   - component: {fileID: 1637463671}
   - component: {fileID: 1637463673}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Jefe
   m_TagString: Enemigo(Jefe)
   m_Icon: {fileID: 0}
@@ -888,9 +896,9 @@ Rigidbody2D:
   m_ExcludeLayers:
     serializedVersion: 2
     m_Bits: 0
-  m_Interpolate: 0
+  m_Interpolate: 1
   m_SleepingMode: 1
-  m_CollisionDetection: 0
+  m_CollisionDetection: 1
   m_Constraints: 4
 --- !u!212 &1637463669
 SpriteRenderer:

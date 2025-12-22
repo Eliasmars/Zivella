@@ -18,12 +18,15 @@ public class enemigo : MonoBehaviour
     private Transform objetivoActual;
     private Animator anim;
 
+    SpriteRenderer spriteRenderer;
+
 
     void Start()
     {
         
         objetivoActual = puntoA;
         anim = GetComponent<Animator>();
+        spriteRenderer = GetComponent<SpriteRenderer>();
     }
 
     // Update is called once per frame
@@ -32,25 +35,29 @@ public class enemigo : MonoBehaviour
         // Medir la distancia al jugador
         float distancia = Vector3.Distance(transform.position, jugador.position);
 
-        
+
         if (distancia <= distanciaAtaque)
         {
             Atacar();
+
         }
         else if (distancia <= distanciaPersegir)
         {
-           
+
             SeguirJugador();
+
         }
         else
         {
             Patrullar();
+
         }
 
         if (vida <= 0)
         {
             Destroy(gameObject);
         }
+    
     }
     void Patrullar()
     {
@@ -67,34 +74,49 @@ public class enemigo : MonoBehaviour
             if (objetivoActual == puntoA)
             {
                 objetivoActual = puntoB;
+                
             }
             else
             {
                 objetivoActual = puntoA;
+                
             }
         }
     }
     void SeguirJugador()
     {
         anim.SetInteger("atacar", 0);
+
+        MirarJugador();
+
         float direccion = Mathf.Sign(jugador.position.x - transform.position.x);
         transform.position += Vector3.right * direccion * velocidad * Time.deltaTime;
     }
     void Atacar()
     {
         anim.SetInteger("atacar", 1);
-        
-        Debug.Log("El enemigo está atacando al jugador!");
 
+        MirarJugador();
+
+        Debug.Log("El enemigo está atacando al jugador!");
     }
 
-    //formula de daño para el jugador
-    public void OnCollisionEnter2D(Collision2D collision)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        if (collision.gameObject.tag == "Player")
+        if (collision.gameObject.tag == "espada")
         {
-            vida -= 20;
+            vida -= 20; 
         }
     }
-
+    void MirarJugador()
+    {
+        if (jugador.position.x > transform.position.x)
+        {
+            spriteRenderer.flipX = false; // mira derecha
+        }
+        else
+        {
+            spriteRenderer.flipX = true; // mira izquierda
+        }
+    }
 }

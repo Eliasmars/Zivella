@@ -277,7 +277,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2821361527267498403, guid: 2cfb195e63d5d944d98d58bbdc996817, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 150.17
+      value: 48.7
       objectReference: {fileID: 0}
     - target: {fileID: 7896949338158693587, guid: 2cfb195e63d5d944d98d58bbdc996817, type: 3}
       propertyPath: m_Name
@@ -287,6 +287,14 @@ PrefabInstance:
       propertyPath: barravida
       value: 
       objectReference: {fileID: 262528870}
+    - target: {fileID: 8684557735168907686, guid: 2cfb195e63d5d944d98d58bbdc996817, type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 262528873}
+    - target: {fileID: 8684557735168907686, guid: 2cfb195e63d5d944d98d58bbdc996817, type: 3}
+      propertyPath: m_RenderMode
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects:
@@ -416,6 +424,11 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!20 &262528873 stripped
+Camera:
+  m_CorrespondingSourceObject: {fileID: 374764565738667856, guid: 2cfb195e63d5d944d98d58bbdc996817, type: 3}
+  m_PrefabInstance: {fileID: 262528868}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &387697063
 GameObject:
   m_ObjectHideFlags: 0

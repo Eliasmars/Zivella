@@ -877,6 +877,18 @@ PrefabInstance:
       propertyPath: barravida
       value: 
       objectReference: {fileID: 8112356742796196555}
+    - target: {fileID: 8684557735168907686, guid: 2cfb195e63d5d944d98d58bbdc996817, type: 3}
+      propertyPath: m_Camera
+      value: 
+      objectReference: {fileID: 8112356742796196558}
+    - target: {fileID: 8684557735168907686, guid: 2cfb195e63d5d944d98d58bbdc996817, type: 3}
+      propertyPath: m_RenderMode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 8684557735168907686, guid: 2cfb195e63d5d944d98d58bbdc996817, type: 3}
+      propertyPath: m_SortingOrder
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -998,6 +1010,11 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!20 &8112356742796196558 stripped
+Camera:
+  m_CorrespondingSourceObject: {fileID: 374764565738667856, guid: 2cfb195e63d5d944d98d58bbdc996817, type: 3}
+  m_PrefabInstance: {fileID: 8112356742796196554}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &8589420890217200701
 PrefabInstance:
   m_ObjectHideFlags: 0

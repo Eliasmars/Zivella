@@ -9,11 +9,11 @@ public class enemigo : MonoBehaviour
     public Transform puntoA;        
     public Transform puntoB;         
     public Transform jugador;         
-    public float vida = 100;
+    public float vida = 200;
 
-    public float velocidad = 2f;      
-    public float distanciaAtaque = 1.5f;
-    public float distanciaPersegir = 10f;
+    public float velocidad = 3f;      
+    public float distanciaAtaque = 4f;
+    public float distanciaPersegir = 15f;
 
     private Transform objetivoActual;
     private Animator anim;
@@ -112,11 +112,11 @@ public class enemigo : MonoBehaviour
     {
         if (jugador.position.x > transform.position.x)
         {
-            spriteRenderer.flipX = false; // mira derecha
+            spriteRenderer.flipX = true; // mira derecha
         }
         else
         {
-            spriteRenderer.flipX = true; // mira izquierda
+            spriteRenderer.flipX = false; // mira izquierda
         }
     }
 }

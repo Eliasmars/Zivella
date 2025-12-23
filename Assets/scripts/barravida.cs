@@ -28,7 +28,7 @@ public class barravida : MonoBehaviour
     void Update() //intento de bajar la bara de vida visual
     {
         barradevida.fillAmount = vidaactual;
-        if (vidaactual==0)
+        if (vidaactual == 0)
         {
             SceneManager.LoadScene("Sala spawn");
         }

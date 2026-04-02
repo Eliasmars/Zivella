@@ -116,4 +116,14 @@ public class Jefe1 : MonoBehaviour
             spriteRenderer.flipX = false; // mira izquierda
         }
     }
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("plataformaJ"))
+        {
+            Physics2D.IgnoreCollision(
+                collision.collider,
+                GetComponent<Collider2D>()
+            );
+        }
+    }
 }

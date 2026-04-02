@@ -26,6 +26,7 @@ TagManager:
   - Enemigo (regular)
   - Trampa
   - espada
+  - plataformaJ
   layers:
   - Default
   - TransparentFX

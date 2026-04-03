@@ -36,10 +36,10 @@ public class fogata : MonoBehaviour
         if (enColisionConHogera1 && Input.GetKeyDown(KeyCode.F))
         {
 
-           
-            
-                barravida.vidaactual = barravida.vidamaxima;
-            
+
+
+            barravida.curarCompleto();
+
 
 
         }
@@ -48,7 +48,7 @@ public class fogata : MonoBehaviour
         if (enColisionConHogera2 && Input.GetKeyDown(KeyCode.F))
         {
 
-            barravida.vidaactual = barravida.vidamaxima;
+            barravida.curarCompleto();
 
         }
 

@@ -27,14 +27,29 @@ public class barravida : MonoBehaviour
 
     void Update() //intento de bajar la bara de vida visual
     {
-        barradevida.fillAmount = vidaactual;
+        barradevida.fillAmount = vidaactual / vidamaxima;
         if (vidaactual <= 0)
         {
             SceneManager.LoadScene("Sala spawn");
         }
 
     }
+    public void recibirDaño(float daño)
+    {
+        vidaactual -= daño;
 
+        if (vidaactual < 0)
+            vidaactual = 0;
+
+        actualizarbarra();
+        guardarvida();
+    }
+    public void curarCompleto()
+    {
+        vidaactual = vidamaxima;
+        actualizarbarra();
+        guardarvida();
+    }
     public void actualizarbarra()
     {
         barradevida.fillAmount = vidaactual / vidamaxima;

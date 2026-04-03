@@ -62,17 +62,17 @@ public class Jugador : MonoBehaviour
     {
         if (collision.gameObject.tag == "Trampa")
         {
-            barravida.vidaactual -= 5;
+            barravida.recibirDaño(5);
         }
 
         if (collision.gameObject.tag == "Enemigo (regular)")
         {
-            barravida.vidaactual -= 10;
+            barravida.recibirDaño(10);
         }
 
         if (collision.gameObject.tag == "Enemigo(Jefe)")
         {
-            barravida.vidaactual -= 15;
+            barravida.recibirDaño(15);
         }
     }
 }

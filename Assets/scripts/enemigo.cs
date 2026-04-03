@@ -129,4 +129,14 @@ public class enemigo : MonoBehaviour
             spriteRenderer.flipX = false; // mira izquierda
         }
     }
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Enemigo (regular)"))
+        {
+            Physics2D.IgnoreCollision(
+                collision.collider,
+                GetComponent<Collider2D>()
+            );
+        }
+    }
 }

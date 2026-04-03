@@ -97,7 +97,7 @@ public class Jefe1 : MonoBehaviour
 
             if (barra != null)
             {
-                barra.recibirDaño(15); // más daño porque es jefe
+                barra.recibirDaño(15); 
             }
 
             timerAtaque = 0f;

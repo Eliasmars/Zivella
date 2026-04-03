@@ -6,7 +6,7 @@ public class Jefe1 : MonoBehaviour
     public Transform puntoA;
     public Transform puntoB;
     public Transform jugador;
-    public float vida = 100;
+    public float vida = 200;
 
     public float velocidad = 2f;
     public float distanciaAtaque = 1.5f;

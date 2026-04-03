@@ -1,4 +1,4 @@
-using UnityEngine;
+ï»¿using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
@@ -28,15 +28,17 @@ public class barravida : MonoBehaviour
     void Update() //intento de bajar la bara de vida visual
     {
         barradevida.fillAmount = vidaactual / vidamaxima;
+
         if (vidaactual <= 0)
         {
+            curarCompleto(); 
             SceneManager.LoadScene("Sala spawn");
         }
 
     }
-    public void recibirDaño(float daño)
+    public void recibirDaÃ±o(float daÃ±o)
     {
-        vidaactual -= daño;
+        vidaactual -= daÃ±o;
 
         if (vidaactual < 0)
             vidaactual = 0;

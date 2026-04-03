@@ -9,7 +9,7 @@ public class enemigo : MonoBehaviour
     public Transform puntoA;        
     public Transform puntoB;         
     public Transform jugador;         
-    public float vida = 200;
+    public float vida = 100;
 
     public float velocidad = 3f;      
     public float distanciaAtaque = 4f;

@@ -10,6 +10,8 @@ public class Jefe1 : MonoBehaviour
 
     public float velocidad = 2f;
     public float distanciaAtaque = 1.5f;
+    float tiempoEntreAtaques = 1.2f;
+    float timerAtaque;
     public float distanciaPersegir = 10f;
 
     private Transform objetivoActual;
@@ -29,32 +31,27 @@ public class Jefe1 : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        // Medir la distancia al jugador
-        float distancia = Vector3.Distance(transform.position, jugador.position);
+        timerAtaque += Time.deltaTime;
 
+        float distancia = Vector3.Distance(transform.position, jugador.position);
 
         if (distancia <= distanciaAtaque)
         {
             Atacar();
-
         }
         else if (distancia <= distanciaPersegir)
         {
-
             SeguirJugador();
-
         }
         else
         {
             Patrullar();
-
         }
 
         if (vida <= 0)
         {
             Destroy(gameObject);
         }
-
     }
     void Patrullar()
     {
@@ -92,10 +89,19 @@ public class Jefe1 : MonoBehaviour
     void Atacar()
     {
         anim.SetInteger("atacar", 1);
-
         MirarJugador();
 
-        Debug.Log("El enemigo está atacando al jugador!");
+        if (timerAtaque >= tiempoEntreAtaques)
+        {
+            barravida barra = jugador.GetComponent<barravida>();
+
+            if (barra != null)
+            {
+                barra.recibirDaño(15); // más daño porque es jefe
+            }
+
+            timerAtaque = 0f;
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

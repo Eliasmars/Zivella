@@ -98,7 +98,17 @@ public class enemigo : MonoBehaviour
 
         MirarJugador();
 
-        Debug.Log("El enemigo está atacando al jugador!");
+        float distancia = Vector3.Distance(transform.position, jugador.position);
+
+        if (distancia <= distanciaAtaque)
+        {
+            barravida barra = jugador.GetComponent<barravida>();
+
+            if (barra != null)
+            {
+                barra.recibirDaño(10 * Time.deltaTime);
+            }
+        }
     }
 
     private void OnTriggerEnter2D(Collider2D collision)

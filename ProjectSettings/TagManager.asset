@@ -27,6 +27,18 @@ TagManager:
   - Trampa
   - espada
   - plataformaJ
+  - Jefe 1 exit
+  - Jefe Entry
+  - Puerta B1
+  - Puerta B2
+  - Puerta B3
+  - Puerta B4
+  - Puerta B5
+  - Puerta B6
+  - Puerta B7
+  - Puerta B8
+  - Puerta B9
+  - Puerta B10
   layers:
   - Default
   - TransparentFX

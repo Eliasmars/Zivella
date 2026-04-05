@@ -11,15 +11,18 @@ public class Puertas : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-       
+
     }
     private void OnCollisionEnter2D(Collision2D coll)
     {
+
+        //Mapa 1
         if (coll.gameObject.CompareTag("Puerta inicial"))
         {
             SceneManager.LoadScene("Sala 2");
 
-        } else if (coll.gameObject.CompareTag("Puerta spawn"))
+        }
+        else if (coll.gameObject.CompareTag("Puerta spawn"))
         {
             SceneManager.LoadScene("Sala spawn");
         }
@@ -55,7 +58,7 @@ public class Puertas : MonoBehaviour
         {
             SceneManager.LoadScene("Sala Spawn 1");
         }
-        
+
         else if (coll.gameObject.CompareTag("puerta 6"))
         {
             SceneManager.LoadScene("Sala 6");
@@ -80,7 +83,21 @@ public class Puertas : MonoBehaviour
         }
 
 
+        //Mapa 2
+        else if (coll.gameObject.CompareTag("Jefe 1 exit"))
+        {
+            puertainfo.puertaEntrante = "Puerta jefe";
+            SceneManager.LoadScene("Mapa B1");
+
+        }
+        else if (coll.gameObject.CompareTag("Jefe entry"))
+        {
+            puertainfo.puertaEntrante = "Puerta jefe 1";
+            SceneManager.LoadScene("Sala Jefe");
+
+        }
+
     }
 
-   
+
 }

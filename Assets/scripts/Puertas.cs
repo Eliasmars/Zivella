@@ -90,7 +90,7 @@ public class Puertas : MonoBehaviour
             SceneManager.LoadScene("Mapa B1");
 
         }
-        else if (coll.gameObject.CompareTag("Jefe entry"))
+        else if (coll.gameObject.CompareTag("Jefe Entry"))
         {
             puertainfo.puertaEntrante = "Puerta jefe 1";
             SceneManager.LoadScene("Sala Jefe");

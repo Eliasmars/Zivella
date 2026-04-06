@@ -39,6 +39,8 @@ TagManager:
   - Puerta B8
   - Puerta B9
   - Puerta B10
+  - Puerta Jefe B
+  - Puerta C1
   layers:
   - Default
   - TransparentFX

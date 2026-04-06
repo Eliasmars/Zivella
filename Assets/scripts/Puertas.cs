@@ -86,7 +86,6 @@ public class Puertas : MonoBehaviour
         //Mapa 2
         else if (coll.gameObject.CompareTag("Jefe 1 exit"))
         {
-            puertainfo.puertaEntrante = "Puerta jefe";
             SceneManager.LoadScene("Mapa B1");
 
         }
@@ -94,6 +93,82 @@ public class Puertas : MonoBehaviour
         {
             puertainfo.puertaEntrante = "Puerta jefe 1";
             SceneManager.LoadScene("Sala Jefe");
+
+        }
+        else if (coll.gameObject.CompareTag("Puerta B1"))
+        {
+            SceneManager.LoadScene("Mapa B2");
+
+        }
+        else if (coll.gameObject.CompareTag("Puerta RB1"))
+        {
+            puertainfo.puertaEntrante = "Puerta B1";
+            SceneManager.LoadScene("Mapa B1");
+
+        }
+        else if (coll.gameObject.CompareTag("Puerta B3"))
+        {
+            SceneManager.LoadScene("Mapa B3");
+
+        }
+        else if (coll.gameObject.CompareTag("Puerta B2D"))
+        {
+            puertainfo.puertaEntrante = "Puerta B2D";
+            SceneManager.LoadScene("Mapa B2");
+
+        }
+        else if (coll.gameObject.CompareTag("Puerta B10"))
+        {
+            SceneManager.LoadScene("Mapa B10");
+
+        }
+        else if (coll.gameObject.CompareTag("Puerta B4"))
+        {
+            SceneManager.LoadScene("Mapa B4");
+
+        }
+        else if (coll.gameObject.CompareTag("Puerta B2"))
+        {
+            puertainfo.puertaEntrante = "Puerta B2";
+            SceneManager.LoadScene("Mapa B2");
+
+        }
+        else if (coll.gameObject.CompareTag("Puerta B7"))
+        {
+            SceneManager.LoadScene("Mapa B7");
+
+        }
+        else if (coll.gameObject.CompareTag("Puerta B5"))
+        {
+            SceneManager.LoadScene("Mapa B5");
+
+        }
+        else if (coll.gameObject.CompareTag("Puerta B4R"))
+        {
+            puertainfo.puertaEntrante = "Puerta B4";
+            SceneManager.LoadScene("Mapa B4");
+
+        }
+        else if (coll.gameObject.CompareTag("Puerta B8"))
+        {
+            SceneManager.LoadScene("Mapa B8");
+
+        }
+        else if (coll.gameObject.CompareTag("Puerta B9"))
+        {
+            SceneManager.LoadScene("Mapa B9");
+
+        }
+        else if (coll.gameObject.CompareTag("Puerta B7I"))
+        {
+            puertainfo.puertaEntrante = "Puerta B7I";
+            SceneManager.LoadScene("Mapa B7");
+
+        }
+        else if (coll.gameObject.CompareTag("Puerta B7D"))
+        {
+            puertainfo.puertaEntrante = "Puerta B7D";
+            SceneManager.LoadScene("Mapa B7");
 
         }
 

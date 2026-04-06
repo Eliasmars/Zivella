@@ -7,6 +7,14 @@ public class Sp : MonoBehaviour
     public Transform S4;
     public Transform S5;
     public Transform S6;
+    public Transform SJ1;
+    public Transform B1;
+    public Transform B2;
+    public Transform B2D;
+    public Transform B4;
+    public Transform B7D;
+    public Transform B7I;
+
     void Start()
     {
         GameObject player = GameObject.FindWithTag("Player");
@@ -28,6 +36,27 @@ public class Sp : MonoBehaviour
                 break;
             case "Puerta 6D":
                 player.transform.position = S6.position;
+                break;
+            case "Puerta jefe 1":
+                player.transform.position = SJ1.position;
+                break;
+            case "Puerta B1":
+                player.transform.position = B1.position;
+                break;
+            case "Puerta B2":
+                player.transform.position = B2.position;
+                break;
+            case "Puerta B2D":
+                player.transform.position = B2D.position;
+                break;
+            case "Puerta B4":
+                player.transform.position = B4.position;
+                break;
+            case "Puerta B7I":
+                player.transform.position = B7I.position;
+                break;
+            case "Puerta B7D":
+                player.transform.position = B7D.position;
                 break;
 
         }

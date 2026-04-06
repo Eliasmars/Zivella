@@ -41,6 +41,11 @@ TagManager:
   - Puerta B10
   - Puerta Jefe B
   - Puerta C1
+  - Puerta RB1
+  - Puerta B2D
+  - Puerta B4R
+  - Puerta B7I
+  - Puerta B7D
   layers:
   - Default
   - TransparentFX

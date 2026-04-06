@@ -201,6 +201,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: Puerta B8
       objectReference: {fileID: 0}
+    - target: {fileID: 7924434569008922819, guid: 8f3590f51a919ba4894a91f6dac6391f, type: 3}
+      propertyPath: m_TagString
+      value: Puerta B8
+      objectReference: {fileID: 0}
     - target: {fileID: 8706481591041222410, guid: 8f3590f51a919ba4894a91f6dac6391f, type: 3}
       propertyPath: m_LocalPosition.x
       value: -47.89894
@@ -1178,6 +1182,37 @@ Transform:
   - {fileID: 1724210709}
   m_Father: {fileID: 183757718}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &733307614
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 733307615}
+  m_Layer: 0
+  m_Name: Puerta B8
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &733307615
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 733307614}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -38.71191, y: -9, z: 4.944334}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &741566537
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1191,6 +1226,10 @@ PrefabInstance:
       value: Puerta B9
       objectReference: {fileID: 0}
     - target: {fileID: 687946781601507596, guid: 8f3590f51a919ba4894a91f6dac6391f, type: 3}
+      propertyPath: m_TagString
+      value: Puerta B9
+      objectReference: {fileID: 0}
+    - target: {fileID: 7924434569008922819, guid: 8f3590f51a919ba4894a91f6dac6391f, type: 3}
       propertyPath: m_TagString
       value: Puerta B9
       objectReference: {fileID: 0}
@@ -2285,6 +2324,37 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 2124502051377343787, guid: a47873fe3e2197f4db8dde7c7bb3e9eb, type: 3}
   m_PrefabInstance: {fileID: 1457604778}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1559812004
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1559812005}
+  m_Layer: 0
+  m_Name: Puerta B9
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1559812005
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1559812004}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 32.25354, y: -7.505395, z: 4.944334}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1599658878
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2365,7 +2435,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 687946781601507596, guid: 8f3590f51a919ba4894a91f6dac6391f, type: 3}
       propertyPath: m_TagString
-      value: Puerta B4
+      value: Puerta B4R
+      objectReference: {fileID: 0}
+    - target: {fileID: 7924434569008922819, guid: 8f3590f51a919ba4894a91f6dac6391f, type: 3}
+      propertyPath: m_TagString
+      value: Puerta B4R
       objectReference: {fileID: 0}
     - target: {fileID: 8706481591041222410, guid: 8f3590f51a919ba4894a91f6dac6391f, type: 3}
       propertyPath: m_LocalScale.x
@@ -2425,6 +2499,62 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8706481591041222410, guid: 8f3590f51a919ba4894a91f6dac6391f, type: 3}
   m_PrefabInstance: {fileID: 1724210708}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1742442986
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1742442987}
+  - component: {fileID: 1742442988}
+  m_Layer: 0
+  m_Name: puerta info
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1742442987
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1742442986}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -88.711914, y: -21.468864, z: 4.944334}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1742442988
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1742442986}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75313cb3b9fec7a439c45d11488b2c42, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  S2: {fileID: 0}
+  S3: {fileID: 0}
+  S4: {fileID: 0}
+  S5: {fileID: 0}
+  S6: {fileID: 0}
+  SJ1: {fileID: 0}
+  B1: {fileID: 0}
+  B2: {fileID: 0}
+  B2D: {fileID: 0}
+  B4: {fileID: 0}
+  B7D: {fileID: 1559812005}
+  B7I: {fileID: 733307615}
 --- !u!1001 &1961288024
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2556,3 +2686,6 @@ SceneRoots:
   - {fileID: 183757718}
   - {fileID: 648276620}
   - {fileID: 773945675}
+  - {fileID: 1742442987}
+  - {fileID: 733307615}
+  - {fileID: 1559812005}

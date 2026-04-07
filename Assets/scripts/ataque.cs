@@ -23,7 +23,7 @@ public class ataque : MonoBehaviour
     IEnumerator Esperar()
     {
         Vector3 escala = transform.localScale;
-        escala.x = 0.5f;
+        escala.x = 0.55f;
         transform.localScale = escala;
         transform.rotation = Quaternion.Euler(0, 0, 10);
         yield return new WaitForSeconds(0.01f);

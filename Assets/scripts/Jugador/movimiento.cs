@@ -31,7 +31,7 @@ public class movimiento : MonoBehaviour
 
         if (Input.GetKey(KeyCode.W))
         {
-            transform.position += new Vector3(0, 0.5f, 0);
+            transform.position += new Vector3(0, 0.6f, 0);
         }
         if (Input.GetKeyDown(KeyCode.S))
         {

@@ -605,7 +605,8 @@ MonoBehaviour:
   B2: {fileID: 0}
   B2D: {fileID: 0}
   B4: {fileID: 1425522374}
-  SJ2: {fileID: 0}
+  B7D: {fileID: 0}
+  B7I: {fileID: 0}
 --- !u!4 &539817430
 Transform:
   m_ObjectHideFlags: 0
@@ -2192,11 +2193,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 9005145974549503521, guid: 81953bfa68817384a94ca752209f4141, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 4.4
+      value: 29.1
       objectReference: {fileID: 0}
     - target: {fileID: 9005145974549503521, guid: 81953bfa68817384a94ca752209f4141, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.3
+      value: -15.6
       objectReference: {fileID: 0}
     - target: {fileID: 9005145974549503521, guid: 81953bfa68817384a94ca752209f4141, type: 3}
       propertyPath: m_LocalPosition.z

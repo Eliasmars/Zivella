@@ -7,8 +7,10 @@ public class fogata : MonoBehaviour
     public barravida barravida;
     private bool enColisionConHogera1 = false;
     private bool enColisionConHogera2 = false;
+    private bool enColisionConHogeraB1 = false;
+    private bool enColisionConHogeraB2 = false;
     public static bool Desbloqueadofogata = false;
-
+    public static bool Zona2 = false;
     private void Start()
     {
         
@@ -33,6 +35,19 @@ public class fogata : MonoBehaviour
             SceneManager.LoadScene("Sala Spawn");
 
         }
+        if (enColisionConHogeraB1 && Input.GetKeyDown(KeyCode.Space))
+        {
+
+            SceneManager.LoadScene("Mapa B8");
+
+        }
+        if (enColisionConHogeraB2 && Input.GetKeyDown(KeyCode.Space))
+        {
+
+            SceneManager.LoadScene("Mapa B1");
+
+        }
+
         if (enColisionConHogera1 && Input.GetKeyDown(KeyCode.F))
         {
 
@@ -51,7 +66,18 @@ public class fogata : MonoBehaviour
             barravida.curarCompleto();
 
         }
+        if (enColisionConHogeraB1 && Input.GetKeyDown(KeyCode.F))
+        {
 
+            barravida.curarCompleto();
+
+        }
+        if (enColisionConHogeraB2 && Input.GetKeyDown(KeyCode.F))
+        {
+
+            barravida.curarCompleto();
+
+        }
 
 
     }
@@ -66,11 +92,22 @@ public class fogata : MonoBehaviour
         }
         if (coll.gameObject.CompareTag("hogera 2"))
         {
-            Debug.Log("Entré en hogera 2");
+            
             Desbloqueadofogata = true;
             enColisionConHogera2 = true;
         }
-        
+        if (coll.gameObject.CompareTag("Fogata B1"))
+        {
+            Zona2 = true;
+            enColisionConHogeraB1 = true;
+            Debug.Log("zona 2");
+        }
+        if (coll.gameObject.CompareTag("Fogata B2"))
+        {
+
+            enColisionConHogeraB2 = true;
+
+        }
     }
 
 
@@ -84,7 +121,18 @@ public class fogata : MonoBehaviour
         {
             enColisionConHogera2 = false;
         }
-        
+        if (coll.gameObject.CompareTag("Fogata B1"))
+        {
+
+            enColisionConHogeraB1 = false;
+
+        }
+        if (coll.gameObject.CompareTag("Fogata B2"))
+        {
+
+            enColisionConHogeraB2 = false;
+
+        }
     }
 
 }

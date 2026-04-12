@@ -33,7 +33,7 @@ public class Jugador : MonoBehaviour
 
         if (Input.GetKey(KeyCode.W))
         {
-            transform.position += new Vector3(0, 18 * Time.deltaTime, 0);
+            transform.position += new Vector3(0, velocidadactual * Time.deltaTime, 0);
         }
         if (Input.GetKeyDown(KeyCode.S))
         {

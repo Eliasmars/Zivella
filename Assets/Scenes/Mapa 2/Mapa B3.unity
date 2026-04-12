@@ -671,6 +671,37 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 8706481591041222410, guid: 8f3590f51a919ba4894a91f6dac6391f, type: 3}
   m_PrefabInstance: {fileID: 707588589}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &778023594
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 778023595}
+  m_Layer: 0
+  m_Name: Puerta B3R
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &778023595
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 778023594}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 97.3, y: -1.2, z: -0.37588125}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &799422314
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -933,7 +964,7 @@ MonoBehaviour:
   B4: {fileID: 0}
   B7D: {fileID: 0}
   B7I: {fileID: 0}
-  B3R: {fileID: 0}
+  B3R: {fileID: 778023595}
   B10R: {fileID: 0}
 --- !u!4 &1173201741
 Transform:
@@ -1904,3 +1935,4 @@ SceneRoots:
   - {fileID: 1890498681}
   - {fileID: 395541976}
   - {fileID: 1173201741}
+  - {fileID: 778023595}

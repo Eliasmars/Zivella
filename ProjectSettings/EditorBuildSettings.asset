@@ -60,7 +60,7 @@ EditorBuildSettings:
     path: Assets/Scenes/Mapa 2/Mapa B10.unity
     guid: 94b59729a76d5594c98b20f1b94304c9
   - enabled: 1
-    path: Assets/Scenes/Mapa 2/sala Jefe 2.unity
+    path: Assets/Scenes/Mapa 2/sala Jefe.unity
     guid: b668ee0ea7958c64babe642a5f44d34c
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}

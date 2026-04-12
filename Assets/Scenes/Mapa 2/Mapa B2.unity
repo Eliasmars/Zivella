@@ -674,10 +674,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cooldownAtaque: 2
-  barraVida: {fileID: 1599952067}
+  barraVida: {fileID: 0}
   puntoA: {fileID: 1012548944}
   puntoB: {fileID: 1716306341}
-  jugador: {fileID: 1599952074}
+  jugador: {fileID: 0}
   vida: 100
   velocidad: 2
   distanciaAtaque: 1.5

@@ -60,8 +60,23 @@ EditorBuildSettings:
     path: Assets/Scenes/Mapa 2/Mapa B10.unity
     guid: 94b59729a76d5594c98b20f1b94304c9
   - enabled: 1
-    path: Assets/Scenes/Mapa 2/sala Jefe.unity
+    path: Assets/Scenes/Mapa 2/sala Jefe 1.unity
     guid: b668ee0ea7958c64babe642a5f44d34c
+  - enabled: 1
+    path: Assets/Scenes/Mapa 2/Mapa B11.unity
+    guid: e8106afb195728e4a9af7e0d4364101b
+  - enabled: 1
+    path: Assets/Scenes/Mapa 2/Mapa B12.unity
+    guid: 5ca19b6c75a6efb4b8701e91b580bb68
+  - enabled: 1
+    path: Assets/Scenes/Mapa 2/sala Jefe 2.unity
+    guid: dace56cca9db90b45857d38d72ec056a
+  - enabled: 1
+    path: Assets/Scenes/Mapa 2/Sala Spawn.unity
+    guid: 59a5bbb4abace214d9da5949bf49d0ba
+  - enabled: 1
+    path: Assets/Scenes/Mapa 2/Sala Spawn 1.unity
+    guid: 99931d74ea7578c4b95ff247d31e3e80
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

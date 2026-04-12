@@ -196,6 +196,8 @@ GameObject:
   - component: {fileID: 93025244}
   - component: {fileID: 93025243}
   - component: {fileID: 93025242}
+  - component: {fileID: 93025247}
+  - component: {fileID: 93025246}
   m_Layer: 0
   m_Name: jefe 2
   m_TagString: Untagged
@@ -346,6 +348,49 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!95 &93025246
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 93025241}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 069f23a6b623ccc4dbcffb308ca76e36, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &93025247
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 93025241}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f06f0f8226667f845a930f5a1f7c0ad0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cooldownAtaque: 2
+  barraVida: {fileID: 0}
+  puntoA: {fileID: 0}
+  puntoB: {fileID: 0}
+  jugador: {fileID: 0}
+  vida: 200
+  velocidad: 3.5
+  distanciaAtaque: 4.5
+  distanciaPersegir: 15
 --- !u!1001 &262528868
 PrefabInstance:
   m_ObjectHideFlags: 0

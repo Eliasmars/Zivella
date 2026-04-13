@@ -54,6 +54,8 @@ TagManager:
   - Puerta B11
   - Puerta Jefe B2
   - Sala segura B11
+  - Puerta B10B
+  - Puerta B10R
   layers:
   - Default
   - TransparentFX

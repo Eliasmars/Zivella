@@ -16,6 +16,8 @@ public class Sp : MonoBehaviour
     public Transform B7I;
     public Transform B3R;
     public Transform B10R;
+    public Transform B8R;
+    public Transform B10B;
 
     void Start()
     {
@@ -64,7 +66,13 @@ public class Sp : MonoBehaviour
                 player.transform.position = B3R.position;
                 break;
             case "Puerta B10R":
-                player.transform.position = B3R.position;
+                player.transform.position = B10R.position;
+                break;
+            case "Puerta B8R":
+                player.transform.position = B8R.position;
+                break;
+            case "Puerta B10B":
+                player.transform.position = B10B.position;
                 break;
 
         }

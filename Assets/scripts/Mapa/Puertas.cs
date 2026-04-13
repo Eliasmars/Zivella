@@ -189,6 +189,12 @@ public class Puertas : MonoBehaviour
             SceneManager.LoadScene("Mapa B10");
 
         }
+        else if (coll.gameObject.CompareTag("Puerta B10B"))
+        {
+            puertainfo.puertaEntrante = "Puerta B10B";
+            SceneManager.LoadScene("Mapa B10");
+
+        }
         else if (coll.gameObject.CompareTag("Puerta B12"))
         {
            
@@ -197,7 +203,7 @@ public class Puertas : MonoBehaviour
         }
         else if (coll.gameObject.CompareTag("Puerta B8R"))
         {
-
+            puertainfo.puertaEntrante = "Puerta B8R";
             SceneManager.LoadScene("Mapa B8");
 
         }

@@ -8,6 +8,7 @@ public class Jugador : MonoBehaviour
     [SerializeField] private SpriteRenderer spriteRenderer;
     [SerializeField] private Animator _animator;
 
+    
     public barravida barravida;
     public float velocidadcaminar = 10f;
     public float velocidadcorrer = 12f;
@@ -35,11 +36,15 @@ public class Jugador : MonoBehaviour
             velocidadactual = velocidadcaminar;
 
 
+
         if (Input.GetKey(KeyCode.W))
         {
-            transform.position += new Vector3(0, velocidadactual * Time.deltaTime, 0);
+            transform.position += new Vector3(0, 18 * Time.deltaTime, 0);
+
         }
+
         if (Input.GetKeyDown(KeyCode.S))
+            
         {
             boxcollider.offset = new Vector2(0, -0.03561386f);
             boxcollider.size = new Vector2(1f, 0.5f);
@@ -83,6 +88,8 @@ public class Jugador : MonoBehaviour
 
     public void OnCollisionEnter2D(Collision2D collision)
     {
+
+      
         if (collision.gameObject.tag == "Trampa")
         {
             barravida.recibirDaño(5);
@@ -98,7 +105,7 @@ public class Jugador : MonoBehaviour
             barravida.recibirDaño(15);
         }
     }
-
+   
     private void FlipCaballeroX()
     {
         if (transform.position.x > xPosUltiFrame)

@@ -64,7 +64,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 1
+    filterMode: 0
     aniso: 1
     mipBias: 0
     wrapU: 1
@@ -78,7 +78,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 550
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -102,7 +102,7 @@ TextureImporter:
     maxTextureSize: 2048
     resizeAlgorithm: 0
     textureFormat: -1
-    textureCompression: 1
+    textureCompression: 0
     compressionQuality: 50
     crunchedCompression: 0
     allowsAlphaSplitting: 0
@@ -143,12 +143,12 @@ TextureImporter:
       name: sprite sheet_0
       rect:
         serializedVersion: 2
-        x: 605
-        y: 617
-        width: 1509
-        height: 2874
+        x: 5405
+        y: 0
+        width: 2512
+        height: 4054
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -165,12 +165,12 @@ TextureImporter:
       name: sprite sheet_1
       rect:
         serializedVersion: 2
-        x: 3291
-        y: 607
-        width: 1744
-        height: 2867
+        x: 0
+        y: 0
+        width: 2613
+        height: 4054
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -231,12 +231,12 @@ TextureImporter:
       name: sprite sheet_4
       rect:
         serializedVersion: 2
-        x: 5973
-        y: 648
-        width: 1788
-        height: 2826
+        x: 2603
+        y: 0
+        width: 2808
+        height: 4054
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -253,12 +253,12 @@ TextureImporter:
       name: sprite sheet_5
       rect:
         serializedVersion: 2
-        x: 7952
-        y: 135
-        width: 2761
-        height: 3352
+        x: 7877
+        y: 0
+        width: 3009
+        height: 4054
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -275,12 +275,12 @@ TextureImporter:
       name: sprite sheet_6
       rect:
         serializedVersion: 2
-        x: 11201
-        y: 617
-        width: 2553
-        height: 3398
+        x: 10926
+        y: 0
+        width: 3030
+        height: 4054
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -297,12 +297,12 @@ TextureImporter:
       name: sprite sheet_7
       rect:
         serializedVersion: 2
-        x: 14198
-        y: 620
-        width: 2232
-        height: 2867
+        x: 13916
+        y: 0
+        width: 3186
+        height: 4054
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       customData: 
       outline: []
@@ -375,6 +375,7 @@ TextureImporter:
     nameFileIdTable:
       sprite sheet_0: -5207231776682384544
       sprite sheet_1: -8533962960574808602
+      sprite sheet_10: -1594420725
       sprite sheet_2: -7233381385078609286
       sprite sheet_3: -8717975482313926904
       sprite sheet_4: 428769192662469898

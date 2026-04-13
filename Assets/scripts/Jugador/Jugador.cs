@@ -5,10 +5,14 @@ using UnityEngine.InputSystem;
 
 public class Jugador : MonoBehaviour
 {
+    [SerializeField] private SpriteRenderer spriteRenderer;
+    [SerializeField] private Animator _animator;
+
     public barravida barravida;
     public float velocidadcaminar = 10f;
     public float velocidadcorrer = 12f;
     public float velocidadactual;
+    private float xPosUltiFrame;
 
     float x, y;
     BoxCollider2D boxcollider;
@@ -48,14 +52,33 @@ public class Jugador : MonoBehaviour
         if (Input.GetKey(KeyCode.A))
         {
             transform.position += new Vector3(-velocidadactual * Time.deltaTime, 0, 0);
+            _animator.SetBool("IsCaminando", true);
         }
         if (Input.GetKey(KeyCode.D))
         {
+            
             transform.position += new Vector3(velocidadactual * Time.deltaTime, 0, 0);
+            _animator.SetBool("IsCaminando", true);
+        }
+        if (Input.GetKeyUp(KeyCode.A))
+        {
+            _animator.SetBool("IsCaminando", false);
+        }
+        if (Input.GetKeyUp(KeyCode.D))
+        {
+            _animator.SetBool("IsCaminando", false);
         }
 
+        if (Input.GetKey(KeyCode.V))
+        {
+            _animator.SetBool("IsAtaque", true);
+        }
+        if (Input.GetKeyUp(KeyCode.V))
+        {
+            _animator.SetBool("IsAtaque", false);
+        }
 
-
+        
     }
 
     public void OnCollisionEnter2D(Collision2D collision)
@@ -75,4 +98,19 @@ public class Jugador : MonoBehaviour
             barravida.recibirDaño(15);
         }
     }
+
+    private void FlipCaballeroX()
+    {
+        if (transform.position.x > xPosUltiFrame)
+
+        {
+            spriteRenderer.flipX = false;
+        }
+        else if (transform.position.x < xPosUltiFrame)
+        {
+            spriteRenderer.flipX = true;
+        }
+        xPosUltiFrame = transform.position.x;
+    }
+
 }

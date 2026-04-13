@@ -180,13 +180,43 @@ public class Puertas : MonoBehaviour
         else if (coll.gameObject.CompareTag("Puerta Jefe B"))
         {
 
-            SceneManager.LoadScene("Sala Jefe");
+            SceneManager.LoadScene("Sala Jefe 1");
 
         }
         else if (coll.gameObject.CompareTag("Puerta B10R"))
         {
             puertainfo.puertaEntrante = "Puerta B10R";
             SceneManager.LoadScene("Mapa B10");
+
+        }
+        else if (coll.gameObject.CompareTag("Puerta B12"))
+        {
+           
+            SceneManager.LoadScene("Mapa B12");
+
+        }
+        else if (coll.gameObject.CompareTag("Puerta B8R"))
+        {
+
+            SceneManager.LoadScene("Mapa B8");
+
+        }
+        else if (coll.gameObject.CompareTag("Puerta B11"))
+        {
+
+            SceneManager.LoadScene("Mapa B11");
+
+        }
+        else if (coll.gameObject.CompareTag("Puerta Jefe B2"))
+        {
+
+            SceneManager.LoadScene("sala Jefe 2");
+
+        }
+        else if (coll.gameObject.CompareTag("Sala segura B11"))
+        {
+
+            SceneManager.LoadScene("Sala spawn 1");
 
         }
 

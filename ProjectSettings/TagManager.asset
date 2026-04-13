@@ -48,6 +48,12 @@ TagManager:
   - Puerta B7D
   - Fogata B1
   - Fogata B2
+  - Puerta B3R
+  - Puerta B12
+  - Puerta B8R
+  - Puerta B11
+  - Puerta Jefe B2
+  - Sala segura B11
   layers:
   - Default
   - TransparentFX

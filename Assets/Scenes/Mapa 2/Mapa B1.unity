@@ -342,16 +342,48 @@ PrefabInstance:
       value: 0.89000005
       objectReference: {fileID: 0}
     - target: {fileID: 2821361527267498403, guid: 2cfb195e63d5d944d98d58bbdc996817, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 184.235
+      objectReference: {fileID: 0}
+    - target: {fileID: 2821361527267498403, guid: 2cfb195e63d5d944d98d58bbdc996817, type: 3}
       propertyPath: m_SizeDelta.y
-      value: -113.361
+      value: -113.816
       objectReference: {fileID: 0}
     - target: {fileID: 2821361527267498403, guid: 2cfb195e63d5d944d98d58bbdc996817, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -262.1
+      value: -295.38
       objectReference: {fileID: 0}
     - target: {fileID: 2821361527267498403, guid: 2cfb195e63d5d944d98d58bbdc996817, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: -36.506
+      value: 42
+      objectReference: {fileID: 0}
+    - target: {fileID: 5537114366412136716, guid: 2cfb195e63d5d944d98d58bbdc996817, type: 3}
+      propertyPath: m_Type
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5537114366412136716, guid: 2cfb195e63d5d944d98d58bbdc996817, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -1843197933104017171, guid: 12d83495fae7b6e458bf05fea8f11369, type: 3}
+    - target: {fileID: 5537114366412136716, guid: 2cfb195e63d5d944d98d58bbdc996817, type: 3}
+      propertyPath: m_Color.b
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5537114366412136716, guid: 2cfb195e63d5d944d98d58bbdc996817, type: 3}
+      propertyPath: m_Color.g
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5537114366412136716, guid: 2cfb195e63d5d944d98d58bbdc996817, type: 3}
+      propertyPath: m_Color.r
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5537114366412136716, guid: 2cfb195e63d5d944d98d58bbdc996817, type: 3}
+      propertyPath: m_Maskable
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5537114366412136716, guid: 2cfb195e63d5d944d98d58bbdc996817, type: 3}
+      propertyPath: m_RaycastTarget
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 6061856416637855480, guid: 2cfb195e63d5d944d98d58bbdc996817, type: 3}
       propertyPath: m_Size.x

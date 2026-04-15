@@ -486,6 +486,10 @@ PrefabInstance:
       propertyPath: barravida
       value: 
       objectReference: {fileID: 589307223}
+    - target: {fileID: 8584047513184468308, guid: 2cfb195e63d5d944d98d58bbdc996817, type: 3}
+      propertyPath: spriteRenderer
+      value: 
+      objectReference: {fileID: 1120767717}
     - target: {fileID: 8684557735168907686, guid: 2cfb195e63d5d944d98d58bbdc996817, type: 3}
       propertyPath: m_Camera
       value: 
@@ -1148,6 +1152,19 @@ MonoBehaviour:
   S4: {fileID: 0}
   S5: {fileID: 0}
   S6: {fileID: 0}
+  SJ1: {fileID: 0}
+  B1: {fileID: 0}
+  B2: {fileID: 0}
+  B2D: {fileID: 0}
+  B4: {fileID: 0}
+  B7D: {fileID: 0}
+  B7I: {fileID: 0}
+  B3R: {fileID: 0}
+  B10R: {fileID: 0}
+  B8R: {fileID: 0}
+  B10B: {fileID: 0}
+  B11A: {fileID: 0}
+  B11B: {fileID: 0}
 --- !u!4 &1095719103
 Transform:
   m_ObjectHideFlags: 0
@@ -1163,6 +1180,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1120767717 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 6061856416637855480, guid: 2cfb195e63d5d944d98d58bbdc996817, type: 3}
+  m_PrefabInstance: {fileID: 589307222}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1140422081
 GameObject:
   m_ObjectHideFlags: 0

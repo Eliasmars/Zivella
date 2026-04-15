@@ -546,6 +546,10 @@ PrefabInstance:
       propertyPath: barravida
       value: 
       objectReference: {fileID: 781127197}
+    - target: {fileID: 8584047513184468308, guid: 2cfb195e63d5d944d98d58bbdc996817, type: 3}
+      propertyPath: spriteRenderer
+      value: 
+      objectReference: {fileID: 1598362532}
     - target: {fileID: 8684557735168907686, guid: 2cfb195e63d5d944d98d58bbdc996817, type: 3}
       propertyPath: m_Camera
       value: 
@@ -1215,6 +1219,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 81953bfa68817384a94ca752209f4141, type: 3}
+--- !u!212 &1598362532 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 6061856416637855480, guid: 2cfb195e63d5d944d98d58bbdc996817, type: 3}
+  m_PrefabInstance: {fileID: 781127195}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1695663449
 PrefabInstance:
   m_ObjectHideFlags: 0

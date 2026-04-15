@@ -379,6 +379,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4342929258482575170, guid: d721e614ac7115b4fa896e032f176a26, type: 3}
   m_PrefabInstance: {fileID: 1120828937}
   m_PrefabAsset: {fileID: 0}
+--- !u!212 &1338488482 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 6061856416637855480, guid: 2cfb195e63d5d944d98d58bbdc996817, type: 3}
+  m_PrefabInstance: {fileID: 8112356742796196554}
+  m_PrefabAsset: {fileID: 0}
 --- !u!4 &1420577921 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 5735560329860410183, guid: ff8965ad0bf9a3045b5bd0dc4dab5efe, type: 3}
@@ -856,6 +861,10 @@ PrefabInstance:
       propertyPath: barravida
       value: 
       objectReference: {fileID: 8112356742796196555}
+    - target: {fileID: 8584047513184468308, guid: 2cfb195e63d5d944d98d58bbdc996817, type: 3}
+      propertyPath: spriteRenderer
+      value: 
+      objectReference: {fileID: 1338488482}
     - target: {fileID: 8584047513184468308, guid: 2cfb195e63d5d944d98d58bbdc996817, type: 3}
       propertyPath: velocidadcaminar
       value: 10

@@ -1,4 +1,5 @@
-﻿using UnityEngine;
+﻿using Unity.VisualScripting.FullSerializer;
+using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
@@ -9,8 +10,8 @@ public class barravida : MonoBehaviour
     public float vidaactual;
 
     public float vidamaxima;
-
-     //Base de vida para cuando se mejora la vida, aumente esto 
+    public fogata fogata;
+    //Base de vida para cuando se mejora la vida, aumente esto 
 
 
     // Start is called once before the first execution of Update after the MonoBehaviour is created
@@ -31,8 +32,15 @@ public class barravida : MonoBehaviour
 
         if (vidaactual <= 0)
         {
-            curarCompleto(); 
+            if(fogata.Zona2 == true)
+            {
+                curarCompleto();
+                SceneManager.LoadScene("Mapa B1");
+            }
+            else {
+                curarCompleto(); 
             SceneManager.LoadScene("Sala spawn");
+            }
         }
 
     }

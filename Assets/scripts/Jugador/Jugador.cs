@@ -13,7 +13,7 @@ public class Jugador : MonoBehaviour
     public float velocidadcaminar = 10f;
     public float velocidadcorrer = 12f;
     public float velocidadactual;
-    private float xPosUltiFrame;
+    
 
     float x, y;
     BoxCollider2D boxcollider;
@@ -75,6 +75,7 @@ public class Jugador : MonoBehaviour
         }
         if (Input.GetKey(KeyCode.A))
         {
+            spriteRenderer.flipX = true;
             transform.position += new Vector3(-velocidadactual * Time.deltaTime, 0, 0);
             _animator.SetBool("IsCaminando", true);
             
@@ -82,7 +83,7 @@ public class Jugador : MonoBehaviour
         }
         if (Input.GetKey(KeyCode.D))
         {
-            
+            spriteRenderer.flipX = false;
             transform.position += new Vector3(velocidadactual * Time.deltaTime, 0, 0);
             _animator.SetBool("IsCaminando", true);
         }
@@ -132,18 +133,6 @@ public class Jugador : MonoBehaviour
         }
     }
    
-    private void FlipCaballeroX()
-    {
-        if (transform.position.x > xPosUltiFrame)
-
-        {
-            spriteRenderer.flipX = false;
-        }
-        else if (transform.position.x < xPosUltiFrame)
-        {
-            spriteRenderer.flipX = true;
-        }
-        xPosUltiFrame = transform.position.x;
-    }
+   
 
 }

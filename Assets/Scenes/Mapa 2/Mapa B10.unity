@@ -576,6 +576,10 @@ PrefabInstance:
       propertyPath: barravida
       value: 
       objectReference: {fileID: 464706521}
+    - target: {fileID: 8584047513184468308, guid: 2cfb195e63d5d944d98d58bbdc996817, type: 3}
+      propertyPath: spriteRenderer
+      value: 
+      objectReference: {fileID: 1303117023}
     - target: {fileID: 8684557735168907686, guid: 2cfb195e63d5d944d98d58bbdc996817, type: 3}
       propertyPath: m_Camera
       value: 
@@ -1255,6 +1259,11 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!212 &1303117023 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 6061856416637855480, guid: 2cfb195e63d5d944d98d58bbdc996817, type: 3}
+  m_PrefabInstance: {fileID: 464706519}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1375640777
 PrefabInstance:
   m_ObjectHideFlags: 0

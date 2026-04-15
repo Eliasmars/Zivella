@@ -822,6 +822,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 5735560329860410183, guid: ff8965ad0bf9a3045b5bd0dc4dab5efe, type: 3}
   m_PrefabInstance: {fileID: 1223651669}
   m_PrefabAsset: {fileID: 0}
+--- !u!212 &1285658094 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 6061856416637855480, guid: 2cfb195e63d5d944d98d58bbdc996817, type: 3}
+  m_PrefabInstance: {fileID: 2022124421}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1547205520
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1337,6 +1342,10 @@ PrefabInstance:
       propertyPath: barravida
       value: 
       objectReference: {fileID: 2022124423}
+    - target: {fileID: 8584047513184468308, guid: 2cfb195e63d5d944d98d58bbdc996817, type: 3}
+      propertyPath: spriteRenderer
+      value: 
+      objectReference: {fileID: 1285658094}
     - target: {fileID: 8684557735168907686, guid: 2cfb195e63d5d944d98d58bbdc996817, type: 3}
       propertyPath: m_Camera
       value: 

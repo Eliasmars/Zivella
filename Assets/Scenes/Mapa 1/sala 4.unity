@@ -362,6 +362,10 @@ PrefabInstance:
       propertyPath: barravida
       value: 
       objectReference: {fileID: 1958120533}
+    - target: {fileID: 8584047513184468308, guid: 2cfb195e63d5d944d98d58bbdc996817, type: 3}
+      propertyPath: spriteRenderer
+      value: 
+      objectReference: {fileID: 1958120541}
     - target: {fileID: 8684557735168907686, guid: 2cfb195e63d5d944d98d58bbdc996817, type: 3}
       propertyPath: m_Camera
       value: 
@@ -1453,6 +1457,11 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f58610fab8e9722479c1434e90df820b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!212 &1958120541 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 6061856416637855480, guid: 2cfb195e63d5d944d98d58bbdc996817, type: 3}
+  m_PrefabInstance: {fileID: 262528868}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1978133924
 PrefabInstance:
   m_ObjectHideFlags: 0

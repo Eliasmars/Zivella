@@ -195,6 +195,10 @@ PrefabInstance:
       propertyPath: barravida
       value: 
       objectReference: {fileID: 1143612097}
+    - target: {fileID: 8584047513184468308, guid: 2cfb195e63d5d944d98d58bbdc996817, type: 3}
+      propertyPath: spriteRenderer
+      value: 
+      objectReference: {fileID: 262528871}
     - target: {fileID: 8684557735168907686, guid: 2cfb195e63d5d944d98d58bbdc996817, type: 3}
       propertyPath: m_Camera
       value: 
@@ -229,6 +233,11 @@ GameObject:
 --- !u!20 &262528870 stripped
 Camera:
   m_CorrespondingSourceObject: {fileID: 374764565738667856, guid: 2cfb195e63d5d944d98d58bbdc996817, type: 3}
+  m_PrefabInstance: {fileID: 262528868}
+  m_PrefabAsset: {fileID: 0}
+--- !u!212 &262528871 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 6061856416637855480, guid: 2cfb195e63d5d944d98d58bbdc996817, type: 3}
   m_PrefabInstance: {fileID: 262528868}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &554435858
@@ -266,6 +275,18 @@ MonoBehaviour:
   S5: {fileID: 0}
   S6: {fileID: 0}
   SJ1: {fileID: 1623043746}
+  B1: {fileID: 0}
+  B2: {fileID: 0}
+  B2D: {fileID: 0}
+  B4: {fileID: 0}
+  B7D: {fileID: 0}
+  B7I: {fileID: 0}
+  B3R: {fileID: 0}
+  B10R: {fileID: 0}
+  B8R: {fileID: 0}
+  B10B: {fileID: 0}
+  B11A: {fileID: 0}
+  B11B: {fileID: 0}
 --- !u!4 &554435860
 Transform:
   m_ObjectHideFlags: 0
@@ -682,8 +703,8 @@ PolygonCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
-    newSize: {x: 1, y: 1}
+    oldSize: {x: 4.359265, y: 6.756667}
+    newSize: {x: 5.5416193, y: 10.51}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0

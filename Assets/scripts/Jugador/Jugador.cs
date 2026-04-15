@@ -8,7 +8,7 @@ public class Jugador : MonoBehaviour
     [SerializeField] private SpriteRenderer spriteRenderer;
     [SerializeField] private Animator _animator;
 
-    
+    public ataque Ataque;
     public barravida barravida;
     public float velocidadcaminar = 10f;
     public float velocidadcorrer = 12f;
@@ -98,7 +98,11 @@ public class Jugador : MonoBehaviour
 
         if (Input.GetKey(KeyCode.V))
         {
-            _animator.SetBool("IsAtaque", true);
+            do
+            {
+                _animator.SetBool("IsAtaque", true);
+            } while (Ataque.animacion);
+            
         }
         if (Input.GetKeyUp(KeyCode.V))
         {

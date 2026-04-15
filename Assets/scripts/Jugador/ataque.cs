@@ -5,6 +5,7 @@ using UnityEngine.InputSystem;
 
 public class ataque : MonoBehaviour
 {
+    public bool animacion;
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
@@ -22,75 +23,65 @@ public class ataque : MonoBehaviour
     }
     IEnumerator Esperar()
     {
+        animacion = true;
         Vector3 escala = transform.localScale;
         escala.x = 0.55f;
         transform.localScale = escala;
         transform.rotation = Quaternion.Euler(0, 0, 10);
-        yield return new WaitForSeconds(0.01f);
+        yield return new WaitForSeconds(0.001f);
         Debug.Log("Pasaron 2 segundos");
         transform.rotation = Quaternion.Euler(0, 0, 0);
-        yield return new WaitForSeconds(0.01f);
+        yield return new WaitForSeconds(0.001f);
         Debug.Log("Pasaron 2 segundos");
         transform.rotation = Quaternion.Euler(0, 0, -10);
-        yield return new WaitForSeconds(0.01f);
+        yield return new WaitForSeconds(0.001f);
         Debug.Log("Pasaron 2 segundos");
         transform.rotation = Quaternion.Euler(0, 0, -20);
-        yield return new WaitForSeconds(0.01f);
+        yield return new WaitForSeconds(0.001f);
         Debug.Log("Pasaron 2 segundos");
         transform.rotation = Quaternion.Euler(0, 0, -30);
-        yield return new WaitForSeconds(0.01f);
+        yield return new WaitForSeconds(0.001f);
         Debug.Log("Pasaron 2 segundos");
         transform.rotation = Quaternion.Euler(0, 0, -40);
-        yield return new WaitForSeconds(0.01f);
-        Debug.Log("Pasaron 2 segundos");
-        transform.rotation = Quaternion.Euler(0, 0, -50);
-        yield return new WaitForSeconds(0.01f);
+        yield return new WaitForSeconds(0.001f);
         Debug.Log("Pasaron 2 segundos");
         transform.rotation = Quaternion.Euler(0, 0, -60);
-        yield return new WaitForSeconds(0.01f);
+        yield return new WaitForSeconds(0.001f);
         Debug.Log("Pasaron 2 segundos");
         transform.rotation = Quaternion.Euler(0, 0, -70);
-        yield return new WaitForSeconds(0.01f);
+        yield return new WaitForSeconds(0.001f);
         Debug.Log("Pasaron 2 segundos");
         transform.rotation = Quaternion.Euler(0, 0, -80);
-        yield return new WaitForSeconds(0.01f);
+        yield return new WaitForSeconds(0.001f);
         Debug.Log("Pasaron 2 segundos");
         transform.rotation = Quaternion.Euler(0, 0, -90);
-        yield return new WaitForSeconds(0.01f);
-        Debug.Log("Pasaron 2 segundos");
-        transform.rotation = Quaternion.Euler(0, 0, -100);
-        yield return new WaitForSeconds(0.01f);
+        yield return new WaitForSeconds(0.001f);
         Debug.Log("Pasaron 2 segundos");
         transform.rotation = Quaternion.Euler(0, 0, -110);
-        yield return new WaitForSeconds(0.01f);
+        yield return new WaitForSeconds(0.001f);
         Debug.Log("Pasaron 2 segundos");
         transform.rotation = Quaternion.Euler(0, 0, -120);
-        yield return new WaitForSeconds(0.01f);
+        yield return new WaitForSeconds(0.001f);
         Debug.Log("Pasaron 2 segundos");
         transform.rotation = Quaternion.Euler(0, 0, -130);
-        yield return new WaitForSeconds(0.01f);
+        yield return new WaitForSeconds(0.001f);
         Debug.Log("Pasaron 2 segundos");
         transform.rotation = Quaternion.Euler(0, 0, -140);
-        yield return new WaitForSeconds(0.01f);
-        Debug.Log("Pasaron 2 segundos");
-        transform.rotation = Quaternion.Euler(0, 0, -150);
-        yield return new WaitForSeconds(0.01f);
+        yield return new WaitForSeconds(0.001f);
         Debug.Log("Pasaron 2 segundos");
         transform.rotation = Quaternion.Euler(0, 0, -160);
-        yield return new WaitForSeconds(0.01f);
+        yield return new WaitForSeconds(0.001f);
         Debug.Log("Pasaron 2 segundos");
         transform.rotation = Quaternion.Euler(0, 0, -170);
-        yield return new WaitForSeconds(0.01f);
-        Debug.Log("Pasaron 2 segundos");
-        transform.rotation = Quaternion.Euler(0, 0, -180);
-        yield return new WaitForSeconds(0.01f);
+        yield return new WaitForSeconds(0.001f);
         Debug.Log("Pasaron 2 segundos");
         transform.rotation = Quaternion.Euler(0, 0, -190);
-        yield return new WaitForSeconds(0.01f);
+        yield return new WaitForSeconds(0.001f);
         Debug.Log("Pasaron 2 segundos");
         Vector3 escala2 = transform.localScale;
         escala.x = 0.05f;
         transform.localScale = escala;
+        animacion = false;
     }   
 
 }

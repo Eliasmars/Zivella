@@ -49,20 +49,32 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2739748376928981166, guid: 8ba6699de9a645946a25c39f9a7481e0, type: 3}
+      propertyPath: m_Sprite
+      value: 
+      objectReference: {fileID: -1043281794294039671, guid: 374f640f4865d0d48ba33fbdd0e0c13b, type: 3}
+    - target: {fileID: 2739748376928981166, guid: 8ba6699de9a645946a25c39f9a7481e0, type: 3}
+      propertyPath: m_Color.a
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2739748376928981166, guid: 8ba6699de9a645946a25c39f9a7481e0, type: 3}
       propertyPath: m_Color.b
-      value: 0.04561232
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2739748376928981166, guid: 8ba6699de9a645946a25c39f9a7481e0, type: 3}
       propertyPath: m_Color.g
-      value: 0.23584908
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 2739748376928981166, guid: 8ba6699de9a645946a25c39f9a7481e0, type: 3}
       propertyPath: m_Color.r
-      value: 0.056503218
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 2739748376928981166, guid: 8ba6699de9a645946a25c39f9a7481e0, type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3379236931431622579, guid: 8ba6699de9a645946a25c39f9a7481e0, type: 3}
       propertyPath: m_Name
-      value: Pared_Fondo Variant
+      value: Pared_Vosque
       objectReference: {fileID: 0}
     - target: {fileID: 3379236931431622579, guid: 8ba6699de9a645946a25c39f9a7481e0, type: 3}
       propertyPath: m_IsActive
@@ -70,7 +82,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3379236931431622579, guid: 8ba6699de9a645946a25c39f9a7481e0, type: 3}
       propertyPath: m_TagString
-      value: Trampa
+      value: Untagged
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

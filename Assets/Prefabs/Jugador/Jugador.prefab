@@ -384,7 +384,7 @@ Transform:
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: -8.27026, y: -2.4559, z: 0}
-  m_LocalScale: {x: 1, y: 2.7045, z: 1}
+  m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 5956645337991087036}
@@ -437,15 +437,15 @@ SpriteRenderer:
   m_SortingLayerID: 0
   m_SortingLayer: 0
   m_SortingOrder: 0
-  m_Sprite: {fileID: 1304755214695285027, guid: e09165cf8e0845a4cbfc0267d934777f, type: 3}
+  m_Sprite: {fileID: -8533962960574808602, guid: 29273ff8d837c3e40832abaee965e038, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 5.5416193, y: 10.51}
   m_AdaptiveModeThreshold: 0.5
   m_SpriteTileMode: 0
-  m_WasSpriteAssigned: 0
+  m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
 --- !u!61 &5045910053450165471
@@ -482,17 +482,17 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0.05364752, y: 0.08047128}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
-    newSize: {x: 1, y: 1}
+    oldSize: {x: 4.359265, y: 6.756667}
+    newSize: {x: 5.5416193, y: 10.51}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 2.5557756, y: 5.0235534}
   m_EdgeRadius: 0
 --- !u!50 &4962437690264311884
 Rigidbody2D:
@@ -617,18 +617,18 @@ PolygonCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 49.6117, y: 58.36}
-    newSize: {x: 49.6117, y: 58.36}
+    oldSize: {x: 4.359265, y: 6.756667}
+    newSize: {x: 5.5416193, y: 10.51}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
   m_Points:
     m_Paths:
-    - - {x: -0.5, y: 0.5}
-      - {x: -0.5, y: -0.5}
-      - {x: 0.5, y: -0.5}
-      - {x: 0.5, y: 0.5}
+    - - {x: -1.1432905, y: 2.449973}
+      - {x: -1.1231871, y: -2.3293557}
+      - {x: 1.243804, y: -2.3293562}
+      - {x: 1.2095776, y: 2.4334805}
   m_UseDelaunayMesh: 0
 --- !u!95 &6277071790566745196
 Animator:
@@ -742,27 +742,27 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1994878475734393346, guid: 8f4946b52b4335c45b868844cf0cad95, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 236.13
+      value: 186.74
       objectReference: {fileID: 0}
     - target: {fileID: 1994878475734393346, guid: 8f4946b52b4335c45b868844cf0cad95, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 13.328
+      value: 37.32
       objectReference: {fileID: 0}
     - target: {fileID: 1994878475734393346, guid: 8f4946b52b4335c45b868844cf0cad95, type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: -283.1
+      value: -397
       objectReference: {fileID: 0}
     - target: {fileID: 1994878475734393346, guid: 8f4946b52b4335c45b868844cf0cad95, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 48.6
+      value: 213
       objectReference: {fileID: 0}
     - target: {fileID: 2644592949556538895, guid: 8f4946b52b4335c45b868844cf0cad95, type: 3}
       propertyPath: m_SizeDelta.x
-      value: 221.07
+      value: 166.04
       objectReference: {fileID: 0}
     - target: {fileID: 2644592949556538895, guid: 8f4946b52b4335c45b868844cf0cad95, type: 3}
       propertyPath: m_SizeDelta.y
-      value: 9.194
+      value: 27.54
       objectReference: {fileID: 0}
     - target: {fileID: 2644592949556538895, guid: 8f4946b52b4335c45b868844cf0cad95, type: 3}
       propertyPath: m_AnchoredPosition.x
@@ -770,7 +770,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2644592949556538895, guid: 8f4946b52b4335c45b868844cf0cad95, type: 3}
       propertyPath: m_AnchoredPosition.y
-      value: 0.226
+      value: 0.9
       objectReference: {fileID: 0}
     - target: {fileID: 4903849367261028871, guid: 8f4946b52b4335c45b868844cf0cad95, type: 3}
       propertyPath: m_Camera
@@ -865,6 +865,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: espada
       objectReference: {fileID: 0}
+    - target: {fileID: 5510722495583006547, guid: d721e614ac7115b4fa896e032f176a26, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -926,6 +930,10 @@ PrefabInstance:
     - target: {fileID: 5031153707635389183, guid: d721e614ac7115b4fa896e032f176a26, type: 3}
       propertyPath: m_Name
       value: espada
+      objectReference: {fileID: 0}
+    - target: {fileID: 5510722495583006547, guid: d721e614ac7115b4fa896e032f176a26, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

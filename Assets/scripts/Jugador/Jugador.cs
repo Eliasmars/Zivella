@@ -40,8 +40,27 @@ public class Jugador : MonoBehaviour
         if (Input.GetKey(KeyCode.W))
         {
             transform.position += new Vector3(0, 18 * Time.deltaTime, 0);
+            _animator.SetBool("IsSaltando", true);
 
         }
+        if (Input.GetKey(KeyCode.W) && Input.GetKey(KeyCode.D))
+        {
+            _animator.SetBool("IsSaltando", true);
+
+        }
+        if (Input.GetKey(KeyCode.W) && Input.GetKey(KeyCode.A))
+        {
+            _animator.SetBool("IsSaltando", true);
+
+
+
+        }
+        if (Input.GetKeyUp(KeyCode.W))
+        {
+            _animator.SetBool("IsSaltando", false);
+        }
+
+        
 
         if (Input.GetKeyDown(KeyCode.S))
             
@@ -58,6 +77,8 @@ public class Jugador : MonoBehaviour
         {
             transform.position += new Vector3(-velocidadactual * Time.deltaTime, 0, 0);
             _animator.SetBool("IsCaminando", true);
+            
+
         }
         if (Input.GetKey(KeyCode.D))
         {
@@ -68,6 +89,7 @@ public class Jugador : MonoBehaviour
         if (Input.GetKeyUp(KeyCode.A))
         {
             _animator.SetBool("IsCaminando", false);
+            
         }
         if (Input.GetKeyUp(KeyCode.D))
         {

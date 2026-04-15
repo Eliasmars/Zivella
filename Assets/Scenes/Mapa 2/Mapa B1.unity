@@ -490,6 +490,14 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: -36.506
       objectReference: {fileID: 0}
+    - target: {fileID: 6061856416637855480, guid: 2cfb195e63d5d944d98d58bbdc996817, type: 3}
+      propertyPath: m_Size.x
+      value: 4.7555614
+      objectReference: {fileID: 0}
+    - target: {fileID: 6061856416637855480, guid: 2cfb195e63d5d944d98d58bbdc996817, type: 3}
+      propertyPath: m_Size.y
+      value: 7.370909
+      objectReference: {fileID: 0}
     - target: {fileID: 7896949338158693587, guid: 2cfb195e63d5d944d98d58bbdc996817, type: 3}
       propertyPath: m_Name
       value: Jugador
@@ -597,8 +605,8 @@ PolygonCollider2D:
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 1, y: 1}
-    newSize: {x: 1, y: 1}
+    oldSize: {x: 4.7555614, y: 7.370909}
+    newSize: {x: 4.7555614, y: 7.370909}
     adaptiveTilingThreshold: 0.5
     drawMode: 0
     adaptiveTiling: 0
@@ -844,6 +852,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 428819991}
+  - component: {fileID: 428819992}
   m_Layer: 0
   m_Name: Enemigos
   m_TagString: Untagged
@@ -867,6 +876,27 @@ Transform:
   - {fileID: 617956961}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &428819992
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 428819990}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f06f0f8226667f845a930f5a1f7c0ad0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  cooldownAtaque: 2
+  barraVida: {fileID: 0}
+  puntoA: {fileID: 0}
+  puntoB: {fileID: 0}
+  jugador: {fileID: 0}
+  vida: 100
+  velocidad: 3
+  distanciaAtaque: 4
+  distanciaPersegir: 15
 --- !u!1001 &451649117
 PrefabInstance:
   m_ObjectHideFlags: 0

@@ -134,7 +134,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      fogata-removebg-preview_0: -7097595123481618175
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

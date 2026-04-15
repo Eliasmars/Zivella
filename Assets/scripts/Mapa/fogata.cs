@@ -10,6 +10,7 @@ public class fogata : MonoBehaviour
     private bool enColisionConHogeraB1 = false;
     private bool enColisionConHogeraB2 = false;
     private bool enColisionConHogeraB3 = false;
+    private bool enColisionConHogeraB4 = false;
     public static bool Desbloqueadofogata2 = false;
     public static bool Desbloqueadofogata4 = false;
     public static bool Desbloqueadofogata5 = false;
@@ -58,6 +59,16 @@ public class fogata : MonoBehaviour
             }
 
         }
+        if (enColisionConHogeraB4 && Input.GetKeyDown(KeyCode.Space))
+        {
+
+            if (Desbloqueadofogata5 == true)
+            {
+                SceneManager.LoadScene("Mapa B10");
+
+            }
+
+        }
 
         if (enColisionConHogera1 && Input.GetKeyDown(KeyCode.F))
         {
@@ -90,6 +101,12 @@ public class fogata : MonoBehaviour
 
         }
         if (enColisionConHogeraB3 && Input.GetKeyDown(KeyCode.F))
+        {
+
+            barravida.curarCompleto();
+
+        }
+        if (enColisionConHogeraB4 && Input.GetKeyDown(KeyCode.F))
         {
 
             barravida.curarCompleto();
@@ -129,6 +146,12 @@ public class fogata : MonoBehaviour
         {
              Desbloqueadofogata5 = true;
              enColisionConHogeraB3 = true;
+
+        }
+        if (coll.gameObject.CompareTag("Fogata B4"))
+        {
+           
+            enColisionConHogeraB4 = true;
 
         }
     }

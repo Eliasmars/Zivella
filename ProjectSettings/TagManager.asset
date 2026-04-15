@@ -59,6 +59,7 @@ TagManager:
   - Fogata B3
   - Puerta B11A
   - Puerta B11B
+  - Fogata B4
   layers:
   - Default
   - TransparentFX

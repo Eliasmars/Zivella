@@ -222,7 +222,7 @@ public class Puertas : MonoBehaviour
         else if (coll.gameObject.CompareTag("Sala segura B11"))
         {
 
-            SceneManager.LoadScene("Sala spawn 1");
+            SceneManager.LoadScene("Sala spawn B1");
 
         }
         else if (coll.gameObject.CompareTag("Puerta B11A"))

@@ -362,6 +362,68 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2cfb195e63d5d944d98d58bbdc996817, type: 3}
+--- !u!1 &392454408
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 392454409}
+  - component: {fileID: 392454410}
+  m_Layer: 0
+  m_Name: Puerta info
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &392454409
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 392454408}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -14.35641, y: 6.8602138, z: -0.27890015}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &392454410
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 392454408}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 75313cb3b9fec7a439c45d11488b2c42, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  S2: {fileID: 0}
+  S3: {fileID: 0}
+  S4: {fileID: 0}
+  S5: {fileID: 0}
+  S6: {fileID: 0}
+  SJ1: {fileID: 0}
+  B1: {fileID: 0}
+  B2: {fileID: 0}
+  B2D: {fileID: 0}
+  B4: {fileID: 0}
+  B7D: {fileID: 0}
+  B7I: {fileID: 0}
+  B3R: {fileID: 0}
+  B10R: {fileID: 0}
+  B8R: {fileID: 0}
+  B10B: {fileID: 0}
+  B11A: {fileID: 1951263408}
+  B11B: {fileID: 887665593}
 --- !u!1001 &493731542
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -834,6 +896,37 @@ MonoBehaviour:
   velocidad: 2
   distanciaAtaque: 1.5
   distanciaPersegir: 15
+--- !u!1 &887665592
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 887665593}
+  m_Layer: 0
+  m_Name: Puerta Curra B11
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &887665593
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 887665592}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 48.3, y: -25.57, z: -0.27890015}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &914367444
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1663,6 +1756,37 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1287399329}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1951263407
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1951263408}
+  m_Layer: 0
+  m_Name: Puerta Jefe B2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1951263408
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1951263407}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 46.77, y: -5, z: -0.27890015}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1990578099
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1808,3 +1932,6 @@ SceneRoots:
   - {fileID: 704421702}
   - {fileID: 1287399327}
   - {fileID: 1612920180}
+  - {fileID: 392454409}
+  - {fileID: 1951263408}
+  - {fileID: 887665593}

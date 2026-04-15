@@ -133,7 +133,7 @@ GameObject:
   - component: {fileID: 25447775}
   m_Layer: 0
   m_Name: Fogata
-  m_TagString: hogera
+  m_TagString: Fogata B3
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1261,6 +1261,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -6393661113792356287, guid: be2c9a63b61146348a86d4ba019ebd9f, type: 3}
+      propertyPath: jugador
+      value: 
+      objectReference: {fileID: 464706524}
+    - target: {fileID: -6393661113792356287, guid: be2c9a63b61146348a86d4ba019ebd9f, type: 3}
+      propertyPath: barraVida
+      value: 
+      objectReference: {fileID: 464706521}
     - target: {fileID: 1957875392210607037, guid: be2c9a63b61146348a86d4ba019ebd9f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 36.14699

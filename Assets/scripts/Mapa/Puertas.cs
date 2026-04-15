@@ -225,6 +225,18 @@ public class Puertas : MonoBehaviour
             SceneManager.LoadScene("Sala spawn 1");
 
         }
+        else if (coll.gameObject.CompareTag("Puerta B11A"))
+        {
+            puertainfo.puertaEntrante = "Puerta B11A";
+            SceneManager.LoadScene("Mapa B11");
+
+        }
+        else if (coll.gameObject.CompareTag("Puerta B11B"))
+        {
+            puertainfo.puertaEntrante = "Puerta B11B";
+            SceneManager.LoadScene("Mapa B11");
+
+        }
 
     }
 

@@ -9,7 +9,10 @@ public class fogata : MonoBehaviour
     private bool enColisionConHogera2 = false;
     private bool enColisionConHogeraB1 = false;
     private bool enColisionConHogeraB2 = false;
-    public static bool Desbloqueadofogata = false;
+    private bool enColisionConHogeraB3 = false;
+    public static bool Desbloqueadofogata2 = false;
+    public static bool Desbloqueadofogata4 = false;
+    public static bool Desbloqueadofogata5 = false;
     public static bool Zona2 = false;
     private void Start()
     {
@@ -20,7 +23,7 @@ public class fogata : MonoBehaviour
         if (enColisionConHogera1 && Input.GetKeyDown(KeyCode.Space))
         {
 
-            if (Desbloqueadofogata == true)
+            if (Desbloqueadofogata2 == true)
              {
                  SceneManager.LoadScene("Sala Spawn 1");
             }
@@ -35,16 +38,24 @@ public class fogata : MonoBehaviour
             SceneManager.LoadScene("Sala Spawn");
 
         }
+
+
         if (enColisionConHogeraB1 && Input.GetKeyDown(KeyCode.Space))
         {
+            if (Desbloqueadofogata4 == true)
+            {
+                SceneManager.LoadScene("Mapa B8");
 
-            SceneManager.LoadScene("Mapa B8");
-
+            }
         }
         if (enColisionConHogeraB2 && Input.GetKeyDown(KeyCode.Space))
         {
 
-            SceneManager.LoadScene("Mapa B1");
+            if (Desbloqueadofogata5 == true)
+            {
+                SceneManager.LoadScene("Mapa B10");
+
+            }
 
         }
 
@@ -78,6 +89,12 @@ public class fogata : MonoBehaviour
             barravida.curarCompleto();
 
         }
+        if (enColisionConHogeraB3 && Input.GetKeyDown(KeyCode.F))
+        {
+
+            barravida.curarCompleto();
+
+        }
 
 
     }
@@ -93,7 +110,7 @@ public class fogata : MonoBehaviour
         if (coll.gameObject.CompareTag("hogera 2"))
         {
             
-            Desbloqueadofogata = true;
+            Desbloqueadofogata2 = true;
             enColisionConHogera2 = true;
         }
         if (coll.gameObject.CompareTag("Fogata B1"))
@@ -104,8 +121,14 @@ public class fogata : MonoBehaviour
         }
         if (coll.gameObject.CompareTag("Fogata B2"))
         {
+             Desbloqueadofogata4 = true;
+             enColisionConHogeraB2 = true;
 
-            enColisionConHogeraB2 = true;
+        }
+        if (coll.gameObject.CompareTag("Fogata B3"))
+        {
+             Desbloqueadofogata5 = true;
+             enColisionConHogeraB3 = true;
 
         }
     }
@@ -131,6 +154,12 @@ public class fogata : MonoBehaviour
         {
 
             enColisionConHogeraB2 = false;
+
+        }
+        if (coll.gameObject.CompareTag("Fogata B3"))
+        {
+
+            enColisionConHogeraB3 = false;
 
         }
     }

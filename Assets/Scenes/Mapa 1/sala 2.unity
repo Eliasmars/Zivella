@@ -606,6 +606,10 @@ PrefabInstance:
       propertyPath: barravida
       value: 
       objectReference: {fileID: 1599952067}
+    - target: {fileID: 8584047513184468308, guid: 2cfb195e63d5d944d98d58bbdc996817, type: 3}
+      propertyPath: spriteRenderer
+      value: 
+      objectReference: {fileID: 262528870}
     - target: {fileID: 8684557735168907686, guid: 2cfb195e63d5d944d98d58bbdc996817, type: 3}
       propertyPath: m_Camera
       value: 
@@ -636,6 +640,11 @@ PrefabInstance:
 --- !u!20 &262528869 stripped
 Camera:
   m_CorrespondingSourceObject: {fileID: 374764565738667856, guid: 2cfb195e63d5d944d98d58bbdc996817, type: 3}
+  m_PrefabInstance: {fileID: 262528868}
+  m_PrefabAsset: {fileID: 0}
+--- !u!212 &262528870 stripped
+SpriteRenderer:
+  m_CorrespondingSourceObject: {fileID: 6061856416637855480, guid: 2cfb195e63d5d944d98d58bbdc996817, type: 3}
   m_PrefabInstance: {fileID: 262528868}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &336818204
@@ -734,6 +743,19 @@ MonoBehaviour:
   S4: {fileID: 0}
   S5: {fileID: 0}
   S6: {fileID: 0}
+  SJ1: {fileID: 0}
+  B1: {fileID: 0}
+  B2: {fileID: 0}
+  B2D: {fileID: 0}
+  B4: {fileID: 0}
+  B7D: {fileID: 0}
+  B7I: {fileID: 0}
+  B3R: {fileID: 0}
+  B10R: {fileID: 0}
+  B8R: {fileID: 0}
+  B10B: {fileID: 0}
+  B11A: {fileID: 0}
+  B11B: {fileID: 0}
 --- !u!4 &532337045
 Transform:
   m_ObjectHideFlags: 0

@@ -196,8 +196,8 @@ GameObject:
   - component: {fileID: 93025244}
   - component: {fileID: 93025243}
   - component: {fileID: 93025242}
-  - component: {fileID: 93025247}
   - component: {fileID: 93025246}
+  - component: {fileID: 93025247}
   m_Layer: 0
   m_Name: jefe 2
   m_TagString: Untagged
@@ -345,7 +345,9 @@ Transform:
   m_LocalPosition: {x: 39.283, y: -0.7, z: 0}
   m_LocalScale: {x: 1.0872, y: 1.0872, z: 1.0872}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 1503583510}
+  - {fileID: 138607713}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &93025246
@@ -379,18 +381,48 @@ MonoBehaviour:
   m_GameObject: {fileID: 93025241}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f06f0f8226667f845a930f5a1f7c0ad0, type: 3}
+  m_Script: {fileID: 11500000, guid: b7142e11660cb52498de8ff96f619da2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  cooldownAtaque: 2
-  barraVida: {fileID: 0}
-  puntoA: {fileID: 0}
-  puntoB: {fileID: 0}
-  jugador: {fileID: 0}
+  barraVida: {fileID: 1446339852}
+  puntoA: {fileID: 1503583510}
+  puntoB: {fileID: 138607713}
+  jugador: {fileID: 1446339851}
   vida: 200
-  velocidad: 3.5
-  distanciaAtaque: 4.5
-  distanciaPersegir: 15
+  velocidad: 2
+  distanciaAtaque: 1.5
+  distanciaPersegir: 10
+--- !u!1 &138607712
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 138607713}
+  m_Layer: 0
+  m_Name: Punto b
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &138607713
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 138607712}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.77, y: -5.18, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 93025245}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &262528868
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -530,6 +562,10 @@ PrefabInstance:
     - target: {fileID: 3262645181953285805, guid: a47873fe3e2197f4db8dde7c7bb3e9eb, type: 3}
       propertyPath: m_Name
       value: Plataforma
+      objectReference: {fileID: 0}
+    - target: {fileID: 3262645181953285805, guid: a47873fe3e2197f4db8dde7c7bb3e9eb, type: 3}
+      propertyPath: m_TagString
+      value: plataformaJ
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -861,6 +897,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Plataforma (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 3262645181953285805, guid: a47873fe3e2197f4db8dde7c7bb3e9eb, type: 3}
+      propertyPath: m_TagString
+      value: plataformaJ
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1048,6 +1088,22 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4647673893535892578, guid: a17fe547023f7a94ab9ba9e0b6786bb7, type: 3}
   m_PrefabInstance: {fileID: 1299083280}
   m_PrefabAsset: {fileID: 0}
+--- !u!4 &1446339851 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1836557451414630474, guid: 2cfb195e63d5d944d98d58bbdc996817, type: 3}
+  m_PrefabInstance: {fileID: 262528868}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1446339852 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4035530210116432586, guid: 2cfb195e63d5d944d98d58bbdc996817, type: 3}
+  m_PrefabInstance: {fileID: 262528868}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f58610fab8e9722479c1434e90df820b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1487080514
 GameObject:
   m_ObjectHideFlags: 0
@@ -1087,6 +1143,37 @@ Transform:
   - {fileID: 1299083281}
   - {fileID: 1636704874}
   m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1503583509
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1503583510}
+  m_Layer: 0
+  m_Name: Punto a
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1503583510
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1503583509}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -41.5, y: -5.4, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 93025245}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1636704873
 PrefabInstance:

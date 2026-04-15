@@ -1060,7 +1060,7 @@ MonoBehaviour:
   barraVida: {fileID: 0}
   puntoA: {fileID: 1431956711}
   puntoB: {fileID: 33987900}
-  jugador: {fileID: 0}
+  jugador: {fileID: 292305360}
   vida: 100
   velocidad: 2
   distanciaAtaque: 1.5

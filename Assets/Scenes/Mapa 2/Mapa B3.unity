@@ -966,6 +966,10 @@ MonoBehaviour:
   B7I: {fileID: 0}
   B3R: {fileID: 778023595}
   B10R: {fileID: 0}
+  B8R: {fileID: 0}
+  B10B: {fileID: 0}
+  B11A: {fileID: 0}
+  B11B: {fileID: 0}
 --- !u!4 &1173201741
 Transform:
   m_ObjectHideFlags: 0
@@ -1125,6 +1129,22 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2cfb195e63d5d944d98d58bbdc996817, type: 3}
+--- !u!4 &1422958986 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1836557451414630474, guid: 2cfb195e63d5d944d98d58bbdc996817, type: 3}
+  m_PrefabInstance: {fileID: 1422958985}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1422958987 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4035530210116432586, guid: 2cfb195e63d5d944d98d58bbdc996817, type: 3}
+  m_PrefabInstance: {fileID: 1422958985}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f58610fab8e9722479c1434e90df820b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1804763334
 GameObject:
   m_ObjectHideFlags: 0
@@ -1290,6 +1310,10 @@ MonoBehaviour:
   B7I: {fileID: 0}
   B3R: {fileID: 0}
   B10R: {fileID: 0}
+  B8R: {fileID: 0}
+  B10B: {fileID: 0}
+  B11A: {fileID: 0}
+  B11B: {fileID: 0}
 --- !u!4 &1888053610
 Transform:
   m_ObjectHideFlags: 0
@@ -1811,6 +1835,14 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 395541976}
     m_Modifications:
+    - target: {fileID: -6393661113792356287, guid: be2c9a63b61146348a86d4ba019ebd9f, type: 3}
+      propertyPath: jugador
+      value: 
+      objectReference: {fileID: 1422958986}
+    - target: {fileID: -6393661113792356287, guid: be2c9a63b61146348a86d4ba019ebd9f, type: 3}
+      propertyPath: barraVida
+      value: 
+      objectReference: {fileID: 1422958987}
     - target: {fileID: 1957875392210607037, guid: be2c9a63b61146348a86d4ba019ebd9f, type: 3}
       propertyPath: m_LocalPosition.x
       value: 26.8

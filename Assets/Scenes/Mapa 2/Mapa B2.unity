@@ -674,10 +674,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cooldownAtaque: 2
-  barraVida: {fileID: 0}
+  barraVida: {fileID: 1599952067}
   puntoA: {fileID: 1012548944}
   puntoB: {fileID: 1716306341}
-  jugador: {fileID: 0}
+  jugador: {fileID: 1599952074}
   vida: 100
   velocidad: 2
   distanciaAtaque: 1.5
@@ -871,6 +871,12 @@ MonoBehaviour:
   B4: {fileID: 0}
   B7D: {fileID: 0}
   B7I: {fileID: 0}
+  B3R: {fileID: 0}
+  B10R: {fileID: 0}
+  B8R: {fileID: 0}
+  B10B: {fileID: 0}
+  B11A: {fileID: 0}
+  B11B: {fileID: 0}
 --- !u!4 &1388527354
 Transform:
   m_ObjectHideFlags: 0

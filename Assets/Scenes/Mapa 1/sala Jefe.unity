@@ -183,9 +183,61 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 80.84
       objectReference: {fileID: 0}
+    - target: {fileID: 3803947529539405287, guid: 2cfb195e63d5d944d98d58bbdc996817, type: 3}
+      propertyPath: m_Points.m_Paths.Array.data[0].Array.size
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 3803947529539405287, guid: 2cfb195e63d5d944d98d58bbdc996817, type: 3}
+      propertyPath: m_Points.m_Paths.Array.data[0].Array.data[1].x
+      value: -1.137476
+      objectReference: {fileID: 0}
+    - target: {fileID: 3803947529539405287, guid: 2cfb195e63d5d944d98d58bbdc996817, type: 3}
+      propertyPath: m_Points.m_Paths.Array.data[0].Array.data[1].y
+      value: 1.1083348
+      objectReference: {fileID: 0}
+    - target: {fileID: 3803947529539405287, guid: 2cfb195e63d5d944d98d58bbdc996817, type: 3}
+      propertyPath: m_Points.m_Paths.Array.data[0].Array.data[2].x
+      value: -1.1231871
+      objectReference: {fileID: 0}
+    - target: {fileID: 3803947529539405287, guid: 2cfb195e63d5d944d98d58bbdc996817, type: 3}
+      propertyPath: m_Points.m_Paths.Array.data[0].Array.data[2].y
+      value: -2.3293557
+      objectReference: {fileID: 0}
+    - target: {fileID: 3803947529539405287, guid: 2cfb195e63d5d944d98d58bbdc996817, type: 3}
+      propertyPath: m_Points.m_Paths.Array.data[0].Array.data[3].x
+      value: 1.243804
+      objectReference: {fileID: 0}
+    - target: {fileID: 3803947529539405287, guid: 2cfb195e63d5d944d98d58bbdc996817, type: 3}
+      propertyPath: m_Points.m_Paths.Array.data[0].Array.data[3].y
+      value: -2.3293562
+      objectReference: {fileID: 0}
+    - target: {fileID: 3803947529539405287, guid: 2cfb195e63d5d944d98d58bbdc996817, type: 3}
+      propertyPath: m_Points.m_Paths.Array.data[0].Array.data[4].x
+      value: 1.2095776
+      objectReference: {fileID: 0}
+    - target: {fileID: 3803947529539405287, guid: 2cfb195e63d5d944d98d58bbdc996817, type: 3}
+      propertyPath: m_Points.m_Paths.Array.data[0].Array.data[4].y
+      value: 2.4334805
+      objectReference: {fileID: 0}
     - target: {fileID: 4801905516242216153, guid: 2cfb195e63d5d944d98d58bbdc996817, type: 3}
       propertyPath: m_Volume
       value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5045910053450165471, guid: 2cfb195e63d5d944d98d58bbdc996817, type: 3}
+      propertyPath: m_Size.x
+      value: 2.2128515
+      objectReference: {fileID: 0}
+    - target: {fileID: 5045910053450165471, guid: 2cfb195e63d5d944d98d58bbdc996817, type: 3}
+      propertyPath: m_Size.y
+      value: 4.5663204
+      objectReference: {fileID: 0}
+    - target: {fileID: 5045910053450165471, guid: 2cfb195e63d5d944d98d58bbdc996817, type: 3}
+      propertyPath: m_Offset.x
+      value: 0.07269812
+      objectReference: {fileID: 0}
+    - target: {fileID: 5045910053450165471, guid: 2cfb195e63d5d944d98d58bbdc996817, type: 3}
+      propertyPath: m_Offset.y
+      value: -0.03383732
       objectReference: {fileID: 0}
     - target: {fileID: 7896949338158693587, guid: 2cfb195e63d5d944d98d58bbdc996817, type: 3}
       propertyPath: m_Name
@@ -1181,9 +1233,9 @@ PolygonCollider2D:
   m_Points:
     m_Paths:
     - - {x: -0.43118834, y: 3.7732844}
-      - {x: -2.4335465, y: 2.7194164}
-      - {x: -2.407219, y: 1.190236}
-      - {x: -0.7824711, y: 1.2293591}
+      - {x: -0.4362266, y: 3.0249746}
+      - {x: -0.46720278, y: 2.2486224}
+      - {x: -0.47807518, y: 2.1199703}
       - {x: -0.8011285, y: -4.7879086}
       - {x: 2.286181, y: -4.792139}
       - {x: 2.2367022, y: 1.4432074}

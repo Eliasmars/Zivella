@@ -447,7 +447,20 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Antorcha_0: 1720627809295142107
+      Antorcha_1: 4520102098571276940
+      Antorcha_10: -8560221920495390936
+      Antorcha_11: 6579671681177496557
+      Antorcha_12: 3164531463397418478
+      Antorcha_2: -5618472083944992868
+      Antorcha_3: -5510666813692985842
+      Antorcha_4: -3395668701736997702
+      Antorcha_5: 2472176414282149147
+      Antorcha_6: -2080990373090099489
+      Antorcha_7: -8956534141167896344
+      Antorcha_8: 482210027585628381
+      Antorcha_9: 1893657590468160249
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

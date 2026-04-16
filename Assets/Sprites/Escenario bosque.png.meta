@@ -147,7 +147,8 @@ TextureImporter:
     secondaryTextures: []
     spriteCustomMetadata:
       entries: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      Escenario bosque_0: -1043281794294039671
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

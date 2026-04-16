@@ -25,7 +25,7 @@ public class ataque : MonoBehaviour
     {
         animacion = true;
         Vector3 escala = transform.localScale;
-        escala.x = 0.55f;
+        escala.x = 0.65f;
         transform.localScale = escala;
         transform.rotation = Quaternion.Euler(0, 0, 10);
         yield return new WaitForSeconds(0.001f);

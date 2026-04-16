@@ -930,7 +930,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 2716844643862250755, guid: 8ba6699de9a645946a25c39f9a7481e0, type: 3}
       propertyPath: m_LocalScale.x
-      value: 2.6690629
+      value: 2.6525147
       objectReference: {fileID: 0}
     - target: {fileID: 2716844643862250755, guid: 8ba6699de9a645946a25c39f9a7481e0, type: 3}
       propertyPath: m_LocalScale.y
@@ -942,7 +942,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2716844643862250755, guid: 8ba6699de9a645946a25c39f9a7481e0, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 19.3698
+      value: 19.5746
       objectReference: {fileID: 0}
     - target: {fileID: 2716844643862250755, guid: 8ba6699de9a645946a25c39f9a7481e0, type: 3}
       propertyPath: m_LocalPosition.y
@@ -1181,11 +1181,11 @@ PolygonCollider2D:
   m_Points:
     m_Paths:
     - - {x: -0.43118834, y: 3.7732844}
-      - {x: -5.1067305, y: 2.029305}
-      - {x: -4.9883785, y: 0.8425728}
-      - {x: -0.5237727, y: 1.1625733}
-      - {x: -1.3419284, y: -4.647341}
-      - {x: 3.301871, y: -4.7253532}
+      - {x: -2.4335465, y: 2.7194164}
+      - {x: -2.407219, y: 1.190236}
+      - {x: -0.7824711, y: 1.2293591}
+      - {x: -0.8011285, y: -4.7879086}
+      - {x: 2.286181, y: -4.792139}
       - {x: 2.2367022, y: 1.4432074}
   m_UseDelaunayMesh: 0
 --- !u!114 &1637463673
@@ -1204,7 +1204,7 @@ MonoBehaviour:
   puntoA: {fileID: 1710322215}
   puntoB: {fileID: 1777361947}
   jugador: {fileID: 1143612096}
-  vida: 200
+  vida: 160
   velocidad: 3
   distanciaAtaque: 4
   distanciaPersegir: 10
@@ -1435,7 +1435,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 8706481591041222410, guid: 8f3590f51a919ba4894a91f6dac6391f, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -0.29333812
+      value: -0.333
       objectReference: {fileID: 0}
     - target: {fileID: 8706481591041222410, guid: 8f3590f51a919ba4894a91f6dac6391f, type: 3}
       propertyPath: m_LocalPosition.z
